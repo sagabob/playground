@@ -36,7 +36,7 @@ const Demo = () => {
         <div className="container app-content">
           <h2>Demo</h2>
           <div className="app-body">
-            <div className="columns">
+            <div className="columns reverse-columns">
               <div className="column is-4">
                 <article className="panel  is-link">
                   <p className="panel-heading">
