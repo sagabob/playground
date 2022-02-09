@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './assests/images/logos/bobp_logo.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome, faLaughWink, faCodeBranch } from '@fortawesome/free-solid-svg-icons';
+import { faHome, faLaughWink, faCodeBranch, faBug } from '@fortawesome/free-solid-svg-icons';
 import { Outlet, NavLink } from "react-router-dom";
 import { defaultIconColor } from './utils/colors';
 
@@ -24,6 +24,9 @@ const AppRoute = () => {
                             <li>
                                 <NavLink to="/dashboard" className={({ isActive }) => (isActive ? 'is-active' : "")}><FontAwesomeIcon icon={faCodeBranch} color={defaultIconColor} /></NavLink>
                             </li>
+                            <li>
+                                <NavLink to="/demo" className={({ isActive }) => (isActive ? 'is-active' : "")}><FontAwesomeIcon icon={faBug} color={defaultIconColor} /></NavLink>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -42,6 +45,9 @@ const AppRoute = () => {
                         </li>
                         <li>
                             <NavLink to="/dashboard" className={({ isActive }) => (isActive ? 'is-active' : "")}><FontAwesomeIcon icon={faCodeBranch} color={defaultIconColor} /></NavLink>
+                        </li>
+                        <li>
+                            <NavLink to="/demo" className={({ isActive }) => (isActive ? 'is-active' : "")}><FontAwesomeIcon icon={faBug} color={defaultIconColor} /></NavLink>
                         </li>
                     </ul>
                 </div>

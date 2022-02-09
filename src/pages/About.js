@@ -2,7 +2,13 @@ import React from 'react'
 
 const About = () => {
   return (
-    <>Home</>
+    <>
+      <div className="app-wrapper">
+        <div className="container app-content">
+          <h2>About</h2>
+        </div>
+      </div>
+    </>
   )
 }
 
