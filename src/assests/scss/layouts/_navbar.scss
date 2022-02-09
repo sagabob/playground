@@ -1,0 +1,40 @@
+.lite-nav-bar {
+    width: 80%;
+    border-left: 1px solid $tile-grey;
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+
+    .icon-menu {
+        display: flex;
+        align-items: center;
+        
+        li {
+            width: 50px;
+            min-height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 5px;
+            margin-left: 5px;
+           
+            a {
+                display: block;
+                max-height: 25px;
+                opacity: 1;               
+               
+                svg {
+                    color: $h-blue;
+                    height: 25px;
+                    width: 25px;
+                }
+
+                //active icon state
+                &:hover svg,
+                &.is-active svg {
+                    color: $primary;
+                }
+            }
+        }
+    }
+}

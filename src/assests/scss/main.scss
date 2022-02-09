@@ -1,1 +1,6 @@
 @import "../../../node_modules/bulma/bulma.sass";
+@import "base/variables";
+@import "layouts/sidebar";
+@import "layouts/layout";
+@import "layouts/navbar";
+@import "layouts/responsive";

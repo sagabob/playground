@@ -1,0 +1,62 @@
+.main-sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 55px;
+    background-color: $white;
+    box-shadow: 2px 0px 2px 0px rgba(0, 0, 0, 0.02);
+    border-right: 1px solid $fade-grey;
+    z-index: 40;
+    transition: all 0.3s;
+
+    .sidebar-brand {
+        width: 55px;
+        height: 55px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #fcfcfc;
+        border-right: 1px solid $fade-grey;
+        border-bottom: 1px solid $fade-grey;
+
+        img {
+            width: 40px;
+            height: 40px;
+        }
+    }
+
+    .sidebar-inner {
+        height: calc(100% - 55px);
+        width: 100%;
+
+        .icon-menu {
+            li {
+                width: 55x;
+                height: 55px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+
+                a {
+                    display: block;
+                    max-height: 25px;
+                    opacity: 1;
+
+                    svg {
+                        color: $h-blue;
+                        width: 100%;
+                        height: 100%;
+                    }
+
+                    //active icon state
+                    &:hover svg,
+                    &.is-active svg {
+                        color: $primary;
+                    }
+                }
+            }
+        }
+    }
+}
