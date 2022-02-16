@@ -1,0 +1,229 @@
+{
+    "photos":{
+        "portrait" :"https://i.imgur.com/nVYBSmd.png",
+        "nationality": "https://i.imgur.com/P1PAg2o.png"
+    },
+    "introduction": [
+        "Hello everyone, I'm a full-stack developer with 12+ year experience, demonstrated history in software industry.",
+        "Passionate about new technologies, constantly keep myself updated and enjoy working in a team."
+    ],
+    "stat": {
+        "connection": "50+ Relations",
+        "projects": "18 Projects"
+    },
+    "links": {
+        "linkedin": "https://www.linkedin.com/in/bob-pham-93937973/",
+        "github": "https://github.com/sagabob/",
+        "codepen": "https://codepen.io/b_pham/"
+    },
+    "experience": {
+        "technical_highlight": {
+            "summary": "With my years of experience, I can offer alot of benefits and flexibility:",
+            "highlights": [
+                "I can work in almost all technical positions from frontend to backend or devops engineer.",
+                "Solid understanding and hands-on experience in programming design patterns.",
+                "Hands-on experience in software architechture, particularly micro-services, containerized applications and distributed systems.",
+                "The last two years, I have also got into data analysis and machine learning."
+            ]
+        },
+        "workplaces": [
+            {
+                "company": ".id (informed decisions)",
+                "work_type": "Full-time",
+                "total_time": "1 yrs 3 mos",
+                "image": "https://assets.codepen.io/1104386/.id.jpg",
+                "link": "https://profile.id.com.au",
+                "positions": [
+                    {
+                        "role": "Senior Software Developer",
+                        "time_at_role_start": "Dec 2020",
+                        "time_at_role_end": "Present",
+                        "time_at_role": null,
+                        "location": "Melbourne, Australia",
+                        "highlights": [
+                            "Handle all technical work (design/architechture/develop/deploy) on all 3 business applications.",
+                            "Maintain the infrastructure."
+                        ]
+                    }
+                ]
+            },
+            {
+                "company": "Hexagon Safety & Infrastructure",
+                "work_type": "Full-time",
+                "total_time": "7 yrs 5 mos",
+                "image": "https://assets.codepen.io/1104386/hexagon.jpg",
+                "link": "https://www.hexagonsafetyinfrastructure.com/",
+                "positions": [
+                    {
+                        "role": "Senior Software Developer (Public Safety Dept.)",
+                        "time_at_role_start": "Jan 2019",
+                        "time_at_role_end": "Nov 2020",
+                        "time_at_role": "1 yr 11 mos",
+                        "location": "Melbourne, Australia",
+                        "highlights": [
+                            "Handle software release management process, work as release manager.",
+                            "Work as Devops engineer, migrate TFS code to Azure DevOps, setting up build/release pipelines.",
+                            "Development & coordinate with other developers, testers, implementers and release manager."
+                        ]
+                    },
+                    {
+                        "role": "GIS Analyst Consultant/Senior Developer (Geospatial Dept.)",
+                        "time_at_role_start": "Jul 2013",
+                        "time_at_role_end": "Dec 2018",
+                        "time_at_role": "5 yrs 6 mos",
+                        "location": "Auckland, New Zealand",
+                        "highlights": [
+                            "Consult/support clients on a wide range of Hexagon geospatial software.",
+                            "Involve in the whole software development cycle, design/develop/test/deploy software on the client environments, then provide support.",
+                            "Coordinate & provide technical advises for overseas team to do development."
+                        ]
+                    }
+                ]
+            },
+            {
+                "company": "Cortell",
+                "work_type": "Full-time",
+                "total_time": "1 yrs 6 mos",
+                "image": "https://assets.codepen.io/1104386/company.png",
+                "link": "",
+                "positions": [
+                    {
+                        "role": "Software Developer",
+                        "time_at_role_start": "Jan 2012",
+                        "time_at_role_end": "Jul 2013",
+                        "time_at_role": null,
+                        "location": "Auckland, New Zealand",
+                        "highlights": [
+                            "Develop/extend features for the company's accounting software.",
+                            "Perform integration testing activities.",
+                            "Provide technical support to clients.",
+                            "Perform data migration on the Cortell software for clients."
+                        ]
+                    }
+                ]
+            },
+            {
+                "company": "Vina Web",
+                "work_type": "Full-time",
+                "total_time": "1 yrs 6 mos",
+                "image": "https://assets.codepen.io/1104386/company.png",
+                "link": "",
+                "positions": [
+                    {
+                        "role": "Web Builder",
+                        "time_at_role_start": "Jan 2003",
+                        "time_at_role_end": "Dec 2006",
+                        "time_at_role": null,
+                        "location": "Ho Chi Minh, Viet Nam",
+                        "highlights": [
+                            "Create/update web sites.",
+                            "Perform integration testing activities.",
+                            "Provide technical support to clients."
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "skills":{
+        "skill_list":[
+            {
+                "name": "JavaScript",
+                "metric": 90,
+                "experience": "10+ years of experience",
+                "skill_notes": [
+                    "Part of daily work for years.",
+                    "Have advanced knowledge of the language.",
+                    "Last 5+ years, use more ES6 version."
+                ]
+            },
+            {
+                "name": "C#",
+                "metric": 88,
+                "experience": "10+ years of experience",
+                "skill_notes": [
+                    "Part of daily work for years.",
+                    "Solid & advanced understanding of the language, hand-son experience in developing many applications.",
+                    "Currently work with DotNet Framework 4.6 & DotNet Core 3.1, will update to 5 soon."
+                ]
+            },
+            {
+                "name": "SQL",
+                "metric": 85,
+                "experience": "10+ years of experience",
+                "skill_notes": [
+                    "Part of daily work for years, primarily use in MSSQL."           
+                ]
+            },
+            {
+                "name": "Python",
+                "metric": 83,
+                "experience": "3+ years of experience",
+                "skill_notes": [
+                    "Part of daily work for the last 2+ years.",
+                    "All the work on data analysis, wrangling, and machine learning.",
+                    "Will use Python on WebFrameworks soon."         
+                ]
+            },
+            {
+                "name": "HTML5/CSS3",
+                "metric": 85,
+                "experience": "7+ years of experience",
+                "skill_notes": [
+                    "Part of daily work for years.",
+                    "Solid understanding of the languages, hand-son experience in developing many applications."                     
+                ]
+            }
+        ],
+        "tools": [
+            {
+                "name": "ASP.NET MVC/Web API/EF",
+                "metric": 91,
+                "experience": "7+ years of experience",
+                "skill_notes": [
+                    "Part of daily work for years.",
+                    "Solid & advanced understanding of the stack from aspects (design patterns/architechture/development/deployment)",
+                    "Hand-son experience in using the stack to develop many business applications.",
+                    "Currently work on DotNet Framework 4.6 & DotNet Core 3.1, will update to 5 soon."                     
+                ]
+            },
+            {
+                "name": "Azure DevOps",
+                "metric": 87,
+                "experience": "5+ years of experience",
+                "skill_notes": [
+                    "Part of daily work.",
+                    "Use most of its functions"                                      
+                ]
+            },
+            {
+                "name": "React",
+                "metric": 88,
+                "experience": "5+ years of experience",
+                "skill_notes": [
+                    "Part of daily work for years.",
+                    "Solid understanding, hands-on experience in implementing many applications.",
+                    "Also work closely with other React frameworks Gastby and Nextjs.",
+                    "Hands-on experience in using its common state management libraries such as Redux."                     
+                ]
+            },
+            {
+                "name": "Nodejs",
+                "metric": 81,
+                "experience": "5+ years of experience",
+                "skill_notes": [
+                    "Solid understanding of the tool, hand-son experience in using the Nodejs in developing many Nodejs related applications."                                   
+                ]
+            },
+            {
+                "name": "Mongodb/FireStore (NoSQL)",
+                "metric": 86,
+                "experience": "5+ years of experience",
+                "skill_notes": [
+                    "Part of daily work for recent 3+ years.",
+                    "Solid & advanced understanding of the tools, hand-son experience in using the tools to developing many business applications (use GraphQl connection)"                                   
+                ]
+            }
+        ]
+    }
+}

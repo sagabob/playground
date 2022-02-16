@@ -1,0 +1,81 @@
+.profile-header {
+    margin: 0 auto;
+
+    .h-avatar {       
+
+        > img {           
+            margin: 0 auto;
+            max-width: 300px;
+            object-fit: cover;
+        }
+
+        .avatar {
+            width: 150px;
+            height: 150px;
+            min-width: 150px;
+        }
+
+        .badge {
+            border-width: 3px;
+            height: 40px;
+            width: 40px;
+        }
+    }
+
+    .bio-introduction {
+        font-size: 0.9rem;
+        max-width: 750px;
+        margin: 0 auto;
+        line-height: 1.5;
+        color: $h-deep-blue !important;
+        font-weight: 400;        
+    }
+
+    .profile-stats {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .profile-stat {
+            display: flex;
+            align-items: center;
+            color: $darker-text;
+            font-family: $font;
+
+            span {
+                font-size: 0.9rem;
+                margin-left: 0.5rem;
+            }
+        }
+
+        .separator {
+            height: 25px;
+            width: 2px;
+            border-right: 1px solid darken($fade-grey, 50%);
+            margin: 0 0.5rem;
+        }
+
+        .socials {
+            display: flex;
+            justify-content: center;
+
+            a {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 30px;
+                width: 30px;
+                background: $white;
+                border: 1px solid darken($fade-grey, 6%);
+                box-shadow: $light-box-shadow;
+                border-radius: 50%;
+                margin: 0 2px;
+                transition: all 0.3s;
+
+                &:hover {
+                    border: 2px solid $primary;
+                }
+            }
+        }
+    }
+}

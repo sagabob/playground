@@ -1,0 +1,26 @@
+.h-avatar {
+    position: relative;
+    display: inline-block;
+    vertical-align: bottom;
+
+    .avatar {
+        width: 40px;
+        min-width: 40px;
+        height: 40px;
+        object-fit: cover;
+    }
+
+    .badge {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        height: 16px;
+        width: 16px;
+        border: 1px solid $white;
+    }
+
+    img {
+        display: block;
+        border-radius: 50%;
+    }
+}
