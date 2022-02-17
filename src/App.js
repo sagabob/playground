@@ -6,7 +6,8 @@ import About from './pages/About';
 import Dashboard from './pages/Dashboard';
 import NoMatch from './pages/NoMatch';
 import Demo from './pages/Demo';
-import { MobileSize, TabletSize, IsMobile, IsTablet, IsDesktop } from './utils/constants';
+import { detectScreenMode } from './utils/helpers';
+import { IsDesktop } from './utils/constants';
 import { AppContextProvider } from './AppContext';
 import './App.scss';
 
@@ -32,12 +33,11 @@ const App = () => {
   };
 
   const handleWindowSizeChange = () => {
-    if (window.innerWidth <= MobileSize)
-      setScreenSizeMode(IsMobile);
-    else if (window.innerWidth > MobileSize && window.innerWidth < TabletSize)
-      setScreenSizeMode(IsTablet);
-    else
-      setScreenSizeMode(IsDesktop);
+    
+    const outputScreenMode = detectScreenMode(window.innerWidth);
+
+    setScreenSizeMode(outputScreenMode);
+
   };
 
   return (
@@ -48,8 +48,8 @@ const App = () => {
           <Route path="home" element={<Home />} />
           <Route path="playground" element={<Home />} />
           <Route path="about" element={<About />} />
-          <Route path="dashboard" element={<Dashboard />} />    
-          <Route path="demo" element={<Demo />} />           
+          <Route path="dashboard" element={<Dashboard />} />
+          <Route path="demo" element={<Demo />} />
           <Route path="*" element={<NoMatch />} />
         </Route>
       </Routes>

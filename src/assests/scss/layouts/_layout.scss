@@ -8,29 +8,26 @@ body {
     height: 100%;
     width: 100%;
     overflow: hidden;
-    background: $fade-grey;    
+    background: $fade-grey;
 }
 
-.app-wrapper {   
-    min-height: calc(100vh);    
-    background: $background-default !important;       
-    padding: 12px 20px;    
+.app-wrapper {
+    min-height: calc(100vh);
+    background: $background-default !important;
+    padding: 12px 20px;
 }
 
-.app-content{          
-
+.app-content {
     h2 {
         font-size: 1.8rem;
-        font-family: "Montserrat",sans-serif;
+        font-family: "Montserrat", sans-serif;
         font-weight: 400 !important;
         line-height: 1.2;
         text-transform: uppercase;
-        color:$primary;
-    }  
+        color: $primary;
+    }
 }
 
-
-.app-body {
-    margin-top: 20px;
-    padding: 10px 0 10px 0;
+.panel-wrapper {   
+    margin: 0 rem 2rem;
 }

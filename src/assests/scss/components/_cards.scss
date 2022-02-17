@@ -1,0 +1,183 @@
+.is-profile-card {
+    padding: 1.5rem;
+    .profile-card-section {
+        padding-bottom: 1rem;
+
+        &:not(:last-child) {
+            margin-bottom: 1rem;
+            border-bottom: 1px solid darken($fade-grey, 4%);
+        }
+
+        h4 {
+            font-family: $font-alt;
+            font-weight: 600;
+            font-size: 1rem;
+            text-transform: uppercase;
+            color: $primary;
+            margin-bottom: 0.5rem;
+        }
+        .section-content {
+            .bio-description {
+                font-size: 0.97rem;
+                font-weight: 400;
+                color: $h-deep-blue;
+            }
+
+            .bio-highlight {
+                list-style-type: disc;
+                font-size: 0.91rem;
+                font-weight: 400;
+                padding: 0.5rem 2rem;
+                color: $h-deep-blue;
+                li {
+                    margin-bottom: 0.5rem;
+                }
+            }
+            .experience-wrapper {
+                .experience-item {
+                    display: flex;
+                    align-items: center;
+                    width: 100%;
+
+                    img {
+                        display: block;
+                        width: 40px;
+                        min-width: 40px;
+                        height: 40px;
+                    }
+
+                    .meta {
+                        margin-left: 1rem;
+                        font-size: 0.9rem;
+                        > span {
+                            font-family: $font;
+                            display: block;
+
+                            span {
+                                padding-right: 0.5rem;
+                            }
+                        }
+
+                        .meta-title {
+                            font-weight: 400;
+                            font-size: 1rem;
+                            color: $h-deep-blue;
+                        }
+                    }
+                }
+
+                .timeline {
+                    .outer {
+                        border-left: 1px dashed lighten($primary, 40%);
+                        margin-left: 23px;
+
+                        .timeline-card {
+                            margin: 0 0 20px 25px;
+                            padding: 10px;
+                            max-width: 700px;
+
+                            .key-description {
+                                font-family: $font;
+                                font-weight: 350;
+                                color: $darker-text;
+                                font-size: 0.95rem;
+
+                                ul {
+                                    list-style-type: disc;
+                                    padding: 0.5rem 1.5rem;
+                                }
+                            }
+
+                            .subtitle {
+                                position: relative;
+                                margin-bottom: 0.1rem;
+                                border-left: 1px;
+                            }
+
+                            .subtitle::before {
+                                content: "";
+                                position: absolute;
+                                width: 10px;
+                                height: 10px;
+                                background: lighten($primary, 25%);
+                                border-radius: 50%;
+                                left: -40px;
+                                border: 1px solid lighten($primary, 25%);
+                                top: 4px;
+                            }
+
+                            .subtitle::after {
+                                content: "";
+                                position: absolute;
+                                width: 15px;
+                                height: 1px;
+                                background-color: lighten($primary, 25%);
+                                left: -38px;
+                                border: 1px dashed lighten($primary, 25%);
+                                top: 8px;
+                            }
+
+                            .timeperiod,
+                            .location-description {
+                                margin-bottom: 0.1rem;
+
+                                span {
+                                    font-size: 0.95rem;
+                                    padding-right: 0.5rem;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .skill-wrapper {
+                .skill-item-wrapper {
+                    margin-bottom: 2rem;
+                    .skill-item {
+                        display: flex;
+                        align-items: center;
+                        width: 100% ;
+
+                        .skill-metric {
+                            width: 50px;
+                            min-width: 50px;
+                            height: 50px;
+                        }
+                        .meta {
+                            margin-left: 1rem;
+
+                            > span {
+                                font-family: $font;
+                                display: block;
+                            }
+
+                            .skill-description {
+                                color: $dark-lite-text;
+                                font-size: 0.9rem;
+                            }
+
+                            .meta-title {
+                                font-weight: 400;
+                                font-size: 1rem;
+                                color: $h-deep-blue;
+                            }
+                        }
+                    }
+
+                    .skill-notes {
+                        font-family: $font;
+                        font-weight: 350;
+                        color: $darker-text;
+                        font-size: 0.95rem;
+                        margin-left: 60px;
+                        ul {
+                            list-style-type: disc;
+                            padding: 0rem 2rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

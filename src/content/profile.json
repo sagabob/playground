@@ -139,7 +139,7 @@
             },
             {
                 "name": "C#",
-                "metric": 88,
+                "metric": 90,
                 "experience": "10+ years of experience",
                 "skill_notes": [
                     "Part of daily work for years.",
@@ -153,6 +153,14 @@
                 "experience": "10+ years of experience",
                 "skill_notes": [
                     "Part of daily work for years, primarily use in MSSQL."           
+                ]
+            },
+            {
+                "name": "PowerShell",
+                "metric": 81,
+                "experience": "5+ years of experience",
+                "skill_notes": [
+                    "Use to be a part of daily work (2 years ago)  when doing deployment."           
                 ]
             },
             {
@@ -178,7 +186,7 @@
         "tools": [
             {
                 "name": "ASP.NET MVC/Web API/EF",
-                "metric": 91,
+                "metric": 93,
                 "experience": "7+ years of experience",
                 "skill_notes": [
                     "Part of daily work for years.",
@@ -189,7 +197,7 @@
             },
             {
                 "name": "Azure DevOps",
-                "metric": 87,
+                "metric": 88,
                 "experience": "5+ years of experience",
                 "skill_notes": [
                     "Part of daily work.",
@@ -197,8 +205,18 @@
                 ]
             },
             {
+                "name": "Docker/Kubernetes/Fabric",
+                "metric": 85,
+                "experience": "3+ years of experience",
+                "skill_notes": [
+                    "Fabric (Microsoft's container orchestrator) is part of daily work for recent 3+ years.",
+                    "Solid & advanced understanding of the Docker, hand-son experience in using it to developing many business applications",
+                    "Currently learning Kubernetes, try to migrate from Fabric to K8s."                    
+                ]
+            },
+            {
                 "name": "React",
-                "metric": 88,
+                "metric": 90,
                 "experience": "5+ years of experience",
                 "skill_notes": [
                     "Part of daily work for years.",
@@ -221,9 +239,9 @@
                 "experience": "5+ years of experience",
                 "skill_notes": [
                     "Part of daily work for recent 3+ years.",
-                    "Solid & advanced understanding of the tools, hand-son experience in using the tools to developing many business applications (use GraphQl connection)"                                   
+                    "Solid & advanced understanding of the tools, hand-son experience in using the tools to developing many business applications (use GraphQL connection)"                                   
                 ]
-            }
+            }           
         ]
     }
 }
