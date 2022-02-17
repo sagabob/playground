@@ -7,6 +7,8 @@ import { TabContainer } from '../styles/container-styles'
 import { IsDesktop } from '../utils/constants';
 import CertificatePanel from '../panels/CertificatePanel'
 import HobbyPanel from '../panels/HobbyPanel'
+import SportPanel from '../panels/SportPanel'
+
 
 const About = () => {
   const [tabActive, setTabActive] = useState(0);
@@ -69,7 +71,12 @@ const About = () => {
               </div>
               <div className="column is-4">
                 <div className="panel-wrapper">
-                  <CertificatePanel />
+                  <TabContainer isActive={2 !== tabActive}>
+                    <CertificatePanel />
+                  </TabContainer >
+                  <TabContainer isActive={2 == tabActive}>
+                    <SportPanel />
+                  </TabContainer >
                 </div>
               </div>
             </div>

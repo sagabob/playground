@@ -1,4 +1,5 @@
 import { TabletSize, MobileSize, IsMobile, IsTablet, IsDesktop } from './constants'
+import { metricMediumColor, metricGoodColor, metricTopColor } from './colors'
 
 const detectScreenMode = (inputWindowSize) => {
 
@@ -12,5 +13,14 @@ const detectScreenMode = (inputWindowSize) => {
     return outputSize;
 }
 
+const selectColorFromMetric = (metric) => {
+    if (metric < 80)
+        return metricMediumColor;
 
-export {detectScreenMode}
+    if (metric >= 90)
+        return metricTopColor;
+
+    return metricGoodColor;
+}
+
+export {detectScreenMode, selectColorFromMetric}

@@ -21,7 +21,7 @@ const SkillPanel = () => {
                 <h4>Frameworks / Platforms</h4>
                 <div className="section-content">
                     <div className="skill-wrapper">
-                        {ProfileData.skills.tools.map((skill, index) => (
+                        {ProfileData.skills.frameworks.map((skill, index) => (
                             <SkillComp {...skill} key={index} />
                         ))}
                     </div>

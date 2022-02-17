@@ -1,6 +1,6 @@
 {
-    "photos":{
-        "portrait" :"https://i.imgur.com/nVYBSmd.png",
+    "photos": {
+        "portrait": "https://i.imgur.com/nVYBSmd.png",
         "nationality": "https://i.imgur.com/P1PAg2o.png"
     },
     "introduction": [
@@ -125,11 +125,11 @@
             }
         ]
     },
-    "skills":{
-        "skill_list":[
+    "skills": {
+        "skill_list": [
             {
                 "name": "JavaScript",
-                "metric": 90,
+                "metric": 93,
                 "experience": "10+ years of experience",
                 "skill_notes": [
                     "Part of daily work for years.",
@@ -139,7 +139,7 @@
             },
             {
                 "name": "C#",
-                "metric": 90,
+                "metric": 91,
                 "experience": "10+ years of experience",
                 "skill_notes": [
                     "Part of daily work for years.",
@@ -152,7 +152,7 @@
                 "metric": 85,
                 "experience": "10+ years of experience",
                 "skill_notes": [
-                    "Part of daily work for years, primarily use in MSSQL."           
+                    "Part of daily work for years, primarily use in MSSQL."
                 ]
             },
             {
@@ -160,17 +160,17 @@
                 "metric": 81,
                 "experience": "5+ years of experience",
                 "skill_notes": [
-                    "Use to be a part of daily work (2 years ago)  when doing deployment."           
+                    "Use to be a part of daily work (2 years ago)  when doing deployment."
                 ]
             },
             {
                 "name": "Python",
-                "metric": 83,
+                "metric": 85,
                 "experience": "3+ years of experience",
                 "skill_notes": [
                     "Part of daily work for the last 2+ years.",
                     "All the work on data analysis, wrangling, and machine learning.",
-                    "Will use Python on WebFrameworks soon."         
+                    "Will use Python on WebFrameworks soon."
                 ]
             },
             {
@@ -179,11 +179,11 @@
                 "experience": "7+ years of experience",
                 "skill_notes": [
                     "Part of daily work for years.",
-                    "Solid understanding of the languages, hand-son experience in developing many applications."                     
+                    "Solid understanding of the languages, hand-son experience in developing many applications."
                 ]
             }
         ],
-        "tools": [
+        "frameworks": [
             {
                 "name": "ASP.NET MVC/Web API/EF",
                 "metric": 93,
@@ -192,7 +192,7 @@
                     "Part of daily work for years.",
                     "Solid & advanced understanding of the stack from aspects (design patterns/architechture/development/deployment)",
                     "Hand-son experience in using the stack to develop many business applications.",
-                    "Currently work on DotNet Framework 4.6 & DotNet Core 3.1, will update to 5 soon."                     
+                    "Currently work on DotNet Framework 4.6 & DotNet Core 3.1, will update to 5 soon."
                 ]
             },
             {
@@ -201,7 +201,16 @@
                 "experience": "5+ years of experience",
                 "skill_notes": [
                     "Part of daily work.",
-                    "Use most of its functions"                                      
+                    "Use most of its functions"
+                ]
+            },
+            {
+                "name": "Azure Cloud",
+                "metric": 87,
+                "experience": "5+ years of experience",
+                "skill_notes": [
+                    "Part of daily work.",
+                    "Use most of common services such as MSSQL, CosmoDb, VM, Fabric cluster."
                 ]
             },
             {
@@ -211,7 +220,7 @@
                 "skill_notes": [
                     "Fabric (Microsoft's container orchestrator) is part of daily work for recent 3+ years.",
                     "Solid & advanced understanding of the Docker, hand-son experience in using it to developing many business applications",
-                    "Currently learning Kubernetes, try to migrate from Fabric to K8s."                    
+                    "Currently learning Kubernetes, try to migrate from Fabric to K8s."
                 ]
             },
             {
@@ -222,7 +231,7 @@
                     "Part of daily work for years.",
                     "Solid understanding, hands-on experience in implementing many applications.",
                     "Also work closely with other React frameworks Gastby and Nextjs.",
-                    "Hands-on experience in using its common state management libraries such as Redux."                     
+                    "Hands-on experience in using its common state management libraries such as Redux."
                 ]
             },
             {
@@ -230,18 +239,57 @@
                 "metric": 81,
                 "experience": "5+ years of experience",
                 "skill_notes": [
-                    "Solid understanding of the tool, hand-son experience in using the Nodejs in developing many Nodejs related applications."                                   
+                    "Solid understanding of the tool, hand-son experience in using the Nodejs in developing many Nodejs related applications."
                 ]
             },
             {
-                "name": "Mongodb/FireStore (NoSQL)",
+                "name": "CosmoDb/Mongodb/FireStore (NoSQL)",
                 "metric": 86,
                 "experience": "5+ years of experience",
                 "skill_notes": [
                     "Part of daily work for recent 3+ years.",
-                    "Solid & advanced understanding of the tools, hand-son experience in using the tools to developing many business applications (use GraphQL connection)"                                   
+                    "Solid & advanced understanding of the tools, hand-son experience in using the tools to developing many business applications (use GraphQL connection)"
                 ]
-            }           
+            }
+        ],
+        "tools": [
+            {
+                "name": "Visual Studio",
+                "metric": 91,
+                "icon": "https://i.imgur.com/VzbhI5w.jpg",
+                "experience": "Advanced level"
+            },
+            {
+                "name": "Visual Studio Code",
+                "metric": 88,
+                "icon": "https://i.imgur.com/pKEn1Nt.png",
+                "experience": "Advanced level"
+            },
+            {
+                "name": "Figma",
+                "metric": 71,
+                "icon": "https://i.imgur.com/N88bKjV.png",
+                "experience": "Beginer level"
+            }
+            ,
+            {
+                "name": "PowerBI",
+                "metric": 77,
+                "icon": "https://i.imgur.com/y77FLw8.png",
+                "experience": "Intermediate level"
+            }
+        ],
+        "certificates":[
+            {
+                "title": "Azure Fundamentals",
+                "provider": "Microsoft",       
+                "provider_link": "https://www.linkedin.com/company/microsoft/",         
+                "icon": "https://i.imgur.com/EKG6g1Y.jpg",
+                "issued": "Issued Nov 2020",
+                "expires": "Expires Nov 2022",
+                "credential_Id": "Credential ID 14364134",
+                "badge": "https://www.credly.com/badges/c3d266c1-e7dd-4452-8ae8-c319188c7f92/public_url"
+            }
         ]
     }
 }

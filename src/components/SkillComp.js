@@ -1,17 +1,8 @@
 import React from 'react';
-import { metricMediumColor, metricGoodColor, metricTopColor } from '../utils/colors'
 import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
+import {selectColorFromMetric} from '../utils/helpers'
 
-const selectColor = (metric) => {
-    if (metric < 80)
-        return metricMediumColor;
-
-    if (metric >= 90)
-        return metricTopColor;
-
-    return metricGoodColor;
-}
 
 const SkillComp = (skillInfo) => {
     return <>
@@ -20,7 +11,7 @@ const SkillComp = (skillInfo) => {
                 <div className="skill-metric">
                     <CircularProgressbar value={skillInfo.metric} text={`${skillInfo.metric}`} styles={buildStyles({
                         textSize: `30px`,
-                        pathColor: `${selectColor(skillInfo.metric)}`,
+                        pathColor: `${selectColorFromMetric(skillInfo.metric)}`,
                         textColor: `#040508`
                     })} />
                 </div>

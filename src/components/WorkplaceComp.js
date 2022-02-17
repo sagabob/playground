@@ -18,7 +18,7 @@ const WorkplaceComp = (workspaceInfo) => {
             <div className="timeline">
                 <div className="outer">
                     {workspaceInfo.positions.map((workspace, index) =>
-                        (<PositionComp {...workspace} key={"pos" + index} />))}
+                        (<PositionComp {...workspace} key={index} />))}
                 </div>
             </div>
         </div>
