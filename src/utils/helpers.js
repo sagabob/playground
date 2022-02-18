@@ -26,7 +26,7 @@ const selectColorFromMetric = (metric) => {
 const detectTabStyleBasedOnScreenMode = (inputScreenSizeMode) => {
     const stickyTabStyle = {
         "position": "fixed",
-        "top": inputScreenSizeMode !== IsDesktop ? "47px" : "0px",
+        "top": inputScreenSizeMode !== IsDesktop ? "50px" : "0px",
         "left": "0px",
         "width": "100vw",
         "zIndex": 25,

@@ -39,7 +39,6 @@ const About = () => {
                     <ul>
                       <li className={tabActive === 0 ? "is-active" : ""} onClick={() => setTabActive(0)}><a>Experience</a></li>
                       <li className={tabActive === 1 ? "is-active" : ""} onClick={() => setTabActive(1)}><a>Skills</a></li>
-                      <li className={tabActive === 2 ? "is-active" : ""} onClick={() => setTabActive(2)}><a>Hobbies</a></li>
                     </ul>
                   </div>
                 </article>
@@ -54,19 +53,11 @@ const About = () => {
                   <TabContainer isActive={1 === tabActive}>
                     <SkillPanel />
                   </TabContainer>
-                  <TabContainer isActive={2 === tabActive}>
-                    <HobbyPanel />
-                  </TabContainer>
                 </div>
               </div>
               <div className="column is-4">
                 <div className="panel-wrapper">
-                  <TabContainer isActive={2 !== tabActive}>
-                    <CertificatePanel />
-                  </TabContainer >
-                  <TabContainer isActive={2 === tabActive}>
-                    <SportPanel />
-                  </TabContainer >
+                  <CertificatePanel />
                 </div>
               </div>
             </div>
