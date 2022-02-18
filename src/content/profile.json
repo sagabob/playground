@@ -125,6 +125,43 @@
             }
         ]
     },
+    "education": [
+        {
+            "provider": "The University of Waikato",
+            "provider_link": "https://www.waikato.ac.nz/",
+            "icon_link": "https://i.imgur.com/DZhdINc.jpg",
+            "title": "Master of Computer Scence, Data VisualizationMaster of Computer Scence, Data Visualization",
+            "start": "2011",
+            "end": "2012",
+            "notes": [
+                "Grade: DistinctionGrade: Distinction.",
+                "Research in Graphs and Data Visualization, the topic is to use forced-directed graph to visualize how to learn English vocabularies and their collocations."
+            ]
+        },
+        {
+            "provider": "The University of Waikato",
+            "provider_link": "https://www.waikato.ac.nz/",
+            "icon_link": "https://i.imgur.com/DZhdINc.jpg",
+            "title": "Bachelor (Hons) of Computing and MathematicsBachelor (Hons) of Computing and Mathematics",
+            "start": "2007",
+            "end": "2010",
+            "notes": [
+                "Activities and societies: Golden Key International Society memberActivities and societies: Golden Key International Society member.",
+                "Specialize in Machine Learning & Data MiningSpecialize in Machine Learning & Data Mining."
+            ]
+        },
+        {
+            "provider": "Ho Chi Minh University of Technology (HCMUT)",
+            "provider_link": "http://www.hcmut.edu.vn/en",
+            "icon_link": "https://i.imgur.com/15CW3U7.jpg",
+            "title": "Bachelor's degree , Electrical and Electronics EngineeringBachelor's degree , Electrical and Electronics Engineering",
+            "start": "2001",
+            "end": "2003",
+            "notes": [
+                
+            ]
+        }
+    ],
     "skills": {
         "skill_list": [
             {
@@ -270,8 +307,7 @@
                 "metric": 71,
                 "icon": "https://i.imgur.com/N88bKjV.png",
                 "experience": "Beginer level"
-            }
-            ,
+            },
             {
                 "name": "PowerBI",
                 "metric": 77,
@@ -279,11 +315,11 @@
                 "experience": "Intermediate level"
             }
         ],
-        "certificates":[
+        "certificates": [
             {
                 "title": "Azure Fundamentals",
-                "provider": "Microsoft",       
-                "provider_link": "https://www.linkedin.com/company/microsoft/",         
+                "provider": "Microsoft",
+                "provider_link": "https://www.linkedin.com/company/microsoft/",
                 "icon": "https://i.imgur.com/EKG6g1Y.jpg",
                 "issued": "Issued Nov 2020",
                 "expires": "Expires Nov 2022",

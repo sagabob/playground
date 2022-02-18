@@ -1,4 +1,7 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLocationCrosshairs } from '@fortawesome/free-solid-svg-icons';
+import { locationColor } from '../utils/colors';
 
 const PositionComp = (positionInfo) => {
     return <>
@@ -13,7 +16,7 @@ const PositionComp = (positionInfo) => {
                 </span>
             </div>
             <div className="location-description">
-                <span>{positionInfo.location}</span>
+                <span><FontAwesomeIcon icon={faLocationCrosshairs} color={locationColor} /> {positionInfo.location}</span>
             </div>
             <div className="key-description">
                 <ul >

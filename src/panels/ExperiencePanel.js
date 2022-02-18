@@ -1,6 +1,7 @@
 import React from 'react'
 import profileData from '../content/profile.json';
-import WorksplaceComp from '../components/WorkplaceComp';
+import EducationComp from '../components/EducationComp';
+import WorkplaceComp from '../components/WorkplaceComp';
 
 const ExperiencePanel = () => {
     return (
@@ -28,7 +29,19 @@ const ExperiencePanel = () => {
                 <div className="section-content">
                     <div className="experience-wrapper">
                         {profileData.experience.workplaces.map((worksplace, index) => (
-                            <WorksplaceComp {...worksplace} key={index} />
+                            <WorkplaceComp {...worksplace} key={index} />
+                        ))}
+                    </div>
+                </div>
+            </div>
+            <div className="profile-card-section">
+                <h4 >
+                    Education
+                </h4>
+                <div className="section-content">
+                    <div className="education-wrapper">
+                        {profileData.education.map((education, index) => (
+                            <EducationComp {...education} key={index} />
                         ))}
                     </div>
                 </div>

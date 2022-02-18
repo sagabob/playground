@@ -7,7 +7,7 @@ const CertificationComp = (certificationInfo) => {
     return (
         <div className="certification-item-wrapper">
             <div className="certification-item">
-                <div className="certification-metric">
+                <div className="certification-icon">
                     <a href={certificationInfo.provider_link} target="_blank" rel="noreferrer" ><img src={certificationInfo.icon} alt="" /></a>
                 </div>
                 <div className="meta">
@@ -30,7 +30,6 @@ const CertificationComp = (certificationInfo) => {
                             <span>Credential</span>
                         </a></li>
                 </ul>
-
             </div>
         </div>
     )

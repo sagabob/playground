@@ -178,6 +178,7 @@
                     }
                 }
             }
+
             .certification-wrapper {
                 .certification-item-wrapper {
                     margin-bottom: 2rem;
@@ -187,7 +188,7 @@
                         align-items: center;
                         width: 100%;
 
-                        .certification-metric {
+                        .certification-icon {
                             width: 50px;
                             min-width: 50px;
                             height: 50px;
@@ -204,11 +205,6 @@
                                 }
                             }
 
-                            .skill-description {
-                                color: $dark-lite-text;
-                                font-size: 0.9rem;
-                            }
-
                             .meta-title {
                                 font-weight: 400;
                                 font-size: 1rem;
@@ -218,6 +214,55 @@
                     }
 
                     .certification-notes {
+                        margin-left: 60px;
+                        font-size: 0.9rem !important;
+                        ul {
+                            list-style-type: disc;
+                            padding: 0rem 2rem;
+
+                            li {
+                                margin: 0.2rem 0rem;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .education-wrapper {
+                .education-item-wrapper {
+                    margin-bottom: 2rem;
+
+                    .education-item {
+                        display: flex;
+                        align-items: center;
+                        width: 100%;
+
+                        .education-icon {
+                            width: 50px;
+                            min-width: 50px;
+                            height: 50px;
+                        }
+                        .meta {
+                            margin-left: 1rem;
+                            font-size: 0.9rem;
+                            > span {
+                                font-family: $font;
+                                display: block;
+                                
+                                span {
+                                    padding-right: 0.5rem;
+                                }
+                            }
+
+                            .meta-title {
+                                font-weight: 400;
+                                font-size: 0.95rem;
+                                color: $h-deep-blue;
+                            }
+                        }
+                    }
+
+                    .education-notes {
                         margin-left: 60px;
                         font-size: 0.9rem !important;
                         ul {
