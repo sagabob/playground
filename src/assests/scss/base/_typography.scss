@@ -1,0 +1,84 @@
+$font: "Roboto", sans-serif;
+$font-alt: "Montserrat", sans-serif;
+
+.title {
+  font-family: $font-alt;
+  color: $dark-text;
+}
+
+.subtitle {
+  font-family: $font;
+  color: $dark-text;
+}
+
+/* ==========================================================================
+3. Typography Helpers
+========================================================================== */
+
+.is-font {
+  font-family: $font;
+}
+
+.is-font-alt {
+  font-family: $font-alt !important;
+}
+
+.is-weight-300 {
+  font-weight: 300 !important;
+}
+
+.is-weight-400 {
+  font-weight: 400 !important;
+}
+
+.is-weight-500 {
+  font-weight: 500 !important;
+}
+
+.is-weight-600 {
+  font-weight: 600 !important;
+}
+
+.is-weight-700 {
+  font-weight: 700 !important;
+}
+
+.is-weight-500 {
+  font-weight: 500 !important;
+}
+
+.is-weight-900 {
+  font-weight: 900 !important;
+}
+
+.rem-70 {
+  font-size: 0.7rem;
+}
+
+.rem-75 {
+  font-size: 0.75rem;
+}
+
+.rem-80 {
+  font-size: 0.8rem;
+}
+
+.rem-85 {
+  font-size: 0.85rem;
+}
+
+.rem-90 {
+  font-size: 0.9rem;
+}
+
+.rem-95 {
+  font-size: 0.95rem;
+}
+
+.rem-100 {
+  font-size: 1rem;
+}
+
+.is-font-color-primary{
+  color: $primary !important
+}
