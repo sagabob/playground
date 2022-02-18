@@ -4,11 +4,11 @@ import ExperiencePanel from '../panels/ExperiencePanel'
 import SkillPanel from '../panels/SkillPanel'
 import AppContext from '../AppContext'
 import { TabContainer } from '../styles/container-styles'
-import { IsDesktop } from '../utils/constants';
 import CertificatePanel from '../panels/CertificatePanel'
 import HobbyPanel from '../panels/HobbyPanel'
 import SportPanel from '../panels/SportPanel'
-
+import { TabOffSetTop_About } from '../layouts/layout_config'
+import { detectTabStyleBasedOnScreenMode } from '../utils/helpers'
 
 const About = () => {
   const [tabActive, setTabActive] = useState(0);
@@ -17,18 +17,8 @@ const About = () => {
 
   const outputTabClassAndStyle = (inputScreenSizeMode, inputScrollValue) => {
 
-    const stickyTabStyle = {
-      "position": "fixed",
-      "top": inputScreenSizeMode !== IsDesktop ? "47px" : "0px",
-      "left": "0px",
-      "width": "100vw",
-      "zIndex": 25,
-      "backgroundColor": "#77d2f3"
-    };
-
-    let tabOffSetTop = 350
-
-    const isTabSticky = inputScrollValue > tabOffSetTop;
+    const stickyTabStyle = detectTabStyleBasedOnScreenMode(inputScreenSizeMode);
+    const isTabSticky = inputScrollValue > TabOffSetTop_About;
     const appliedTabStyle = isTabSticky ? stickyTabStyle : {};
     const appliedTabClassName = isTabSticky ? "panel" : "panel is-shadowless is-primary half-bottom-margin";
 
@@ -74,7 +64,7 @@ const About = () => {
                   <TabContainer isActive={2 !== tabActive}>
                     <CertificatePanel />
                   </TabContainer >
-                  <TabContainer isActive={2 == tabActive}>
+                  <TabContainer isActive={2 === tabActive}>
                     <SportPanel />
                   </TabContainer >
                 </div>
