@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './assests/images/logos/bobp_logo.svg';
+import logo from './assests/images/logos/tdp-logo.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome, faLaughWink, faCodeBranch, faBug } from '@fortawesome/free-solid-svg-icons';
 import { Outlet, NavLink } from "react-router-dom";
