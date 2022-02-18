@@ -5,8 +5,6 @@ import SkillPanel from '../panels/SkillPanel'
 import AppContext from '../AppContext'
 import { TabContainer } from '../styles/container-styles'
 import CertificatePanel from '../panels/CertificatePanel'
-import HobbyPanel from '../panels/HobbyPanel'
-import SportPanel from '../panels/SportPanel'
 import { TabOffSetTop_About } from '../layouts/layout_config'
 import { detectTabStyleBasedOnScreenMode } from '../utils/helpers'
 
