@@ -1,4 +1,21 @@
-@media screen and (min-width: 1024px) and (max-width: 1366px) {
+@media screen and (min-width: 1024px) and (max-width: 1650px) {
+    .main-sidebar {
+        width: 55px;
+        .sidebar-brand {
+            img {
+                width: 40px;
+            }
+        }
+
+        .sidebar-inner .icon-menu {
+            .sidebar-item {
+                justify-content: center;
+                .sidebar-item-text {
+                    display: none;
+                }
+            }
+        }
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -16,10 +33,5 @@
         margin-left: 0;
         min-height: calc(100vh - 50px);
         margin-top: 50px;
-    }
-
-    .reverse-columns {
-        flex-direction: column-reverse;
-        display: flex;
     }
 }
