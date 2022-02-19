@@ -31,7 +31,7 @@ const About = () => {
           <ProfileHeaderPanel />
           <div className="container mt-6">
             <div className="columns">
-              <div className="column is-8">
+              <div className="column is-12">
                 <article id="profile-tab-wrapper" className={outputTabClassAndStyle(screenSizeMode, scrollValue).appliedTabClassName} style={outputTabClassAndStyle(screenSizeMode, scrollValue).appliedTabStyle}>
                   <div className="tabs is-centered  is-toggle">
                     <ul>
