@@ -6,6 +6,7 @@ import { Outlet, NavLink } from "react-router-dom";
 import { defaultIconColor } from './utils/colors';
 
 const AppRoute = () => {
+    
     return (
         <>
             <div className="navbar has-shadow is-fixed-top is-hidden-desktop">
@@ -15,10 +16,10 @@ const AppRoute = () => {
                     </a>
                     <div className="lite-nav-bar">
                         <ul className="icon-menu">
-                            <li>
+                            <li >
                                 <NavLink to="/home" className={({ isActive }) => (isActive ? 'is-active' : "")}><FontAwesomeIcon icon={faHome} color={defaultIconColor} /></NavLink>
                             </li>
-                            <li>
+                            <li >
                                 <NavLink to="/about" className={({ isActive }) => (isActive ? 'is-active' : "")}><FontAwesomeIcon icon={faLaughWink} color={defaultIconColor} /></NavLink>
                             </li>
                             <li>
@@ -38,16 +39,40 @@ const AppRoute = () => {
                 <div className="sidebar-inner">
                     <ul className="icon-menu">
                         <li>
-                            <NavLink to="/home" className={({ isActive }) => (isActive ? 'is-active' : "")}><FontAwesomeIcon icon={faHome} color={defaultIconColor} /></NavLink>
+                            <NavLink to="/home" className={({ isActive }) => (isActive ? 'sidebar-item is-active' : "sidebar-item")}>
+                                <div className="sidebar-item-icon"><FontAwesomeIcon icon={faHome} color={defaultIconColor} />
+                                </div>
+                                <div className="sidebar-item-text">
+                                    Home
+                                </div>
+                            </NavLink>
                         </li>
                         <li>
-                            <NavLink to="/about" className={({ isActive }) => (isActive ? 'is-active' : "")}><FontAwesomeIcon icon={faLaughWink} color={defaultIconColor} /></NavLink>
+                            <NavLink to="/about" className={({ isActive }) => (isActive ? 'sidebar-item is-active' : "sidebar-item")}>
+                                <div className="sidebar-item-icon"><FontAwesomeIcon icon={faLaughWink} color={defaultIconColor} />
+                                </div>
+                                <div className="sidebar-item-text">
+                                    About
+                                </div>
+                            </NavLink>
                         </li>
                         <li>
-                            <NavLink to="/dashboard" className={({ isActive }) => (isActive ? 'is-active' : "")}><FontAwesomeIcon icon={faCodeBranch} color={defaultIconColor} /></NavLink>
+                            <NavLink to="/dashboard" className={({ isActive }) => (isActive ? 'sidebar-item is-active' : "sidebar-item")}>
+                                <div className="sidebar-item-icon"><FontAwesomeIcon icon={faCodeBranch} color={defaultIconColor} />
+                                </div>
+                                <div className="sidebar-item-text">
+                                    Dashboard
+                                </div>
+                            </NavLink>
                         </li>
                         <li>
-                            <NavLink to="/demo" className={({ isActive }) => (isActive ? 'is-active' : "")}><FontAwesomeIcon icon={faBug} color={defaultIconColor} /></NavLink>
+                            <NavLink to="/demo" className={({ isActive }) => (isActive ? 'sidebar-item is-active' : "sidebar-item")}>
+                                <div className="sidebar-item-icon"><FontAwesomeIcon icon={faBug} color={defaultIconColor} />
+                                </div>
+                                <div className="sidebar-item-text">
+                                    Demo
+                                </div>
+                            </NavLink>
                         </li>
                     </ul>
                 </div>

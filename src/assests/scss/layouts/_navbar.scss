@@ -30,7 +30,11 @@
                 }
 
                 //active icon state
-                &:hover svg,
+               
+                &:hover svg {
+                    color: $accent;
+                }
+
                 &.is-active svg {
                     color: $primary;
                 }
