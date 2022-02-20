@@ -1,0 +1,16 @@
+.project-card {
+    padding: 1rem;
+
+    h5 {
+        font-family: $font-alt;
+        font-weight: 500;
+        font-size: 1rem;
+        text-transform: uppercase;
+        color: $primary;
+        margin-bottom: 0.5rem;
+    }
+
+    .project-card-section {
+        padding: 1rem;
+    }
+}
