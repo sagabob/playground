@@ -134,7 +134,7 @@
             "start": "2011",
             "end": "2012",
             "notes": [
-                "Grade: DistinctionGrade: Distinction.",
+                "Grade: Distinction.",
                 "Research in Graphs and Data Visualization, the topic is to use forced-directed graphs to visualize how to learn English vocabularies and their collocations."
             ]
         },
@@ -146,7 +146,7 @@
             "start": "2007",
             "end": "2010",
             "notes": [
-                "Activities and societies: Golden Key International Society memberActivities and societies: Golden Key International Society member.",
+                "Activities and societies: Golden Key International Society member.",
                 "Specialize in Machine Learning & Data Mining."
             ]
         },
@@ -303,16 +303,16 @@
                 "experience": "Advanced level"
             },
             {
-                "name": "Figma",
-                "metric": 71,
-                "icon": "https://i.imgur.com/N88bKjV.png",
-                "experience": "Beginer level"
+                "name": "Tensorflow",
+                "metric": 85,
+                "icon": "https://i.imgur.com/zkRMiKz.jpg",
+                "experience": "Advanced level"
             },
             {
-                "name": "PowerBI",
-                "metric": 77,
-                "icon": "https://i.imgur.com/y77FLw8.png",
-                "experience": "Intermediate level"
+                "name": "Hexagon Geospatial Product Suite",
+                "metric": 88,
+                "icon": "https://i.imgur.com/LOeIgKA.jpg",
+                "experience": "Advanced Level"
             }
         ],
         "certificates": [
