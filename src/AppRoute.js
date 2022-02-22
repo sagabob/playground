@@ -40,36 +40,36 @@ const AppRoute = () => {
                     <ul className="icon-menu">
                         <li>
                             <NavLink to="/home" className={({ isActive }) => (isActive ? 'sidebar-item is-active' : "sidebar-item")}>
-                                <div className="sidebar-item-icon"><FontAwesomeIcon icon={faHome} color={defaultIconColor} />
+                                <div className="sidebar-item-icon"><FontAwesomeIcon icon={faHome}  />
                                 </div>
-                                <div className="sidebar-item-text">
+                                <div className="sidebar-item-text ">
                                     Home
                                 </div>
                             </NavLink>
                         </li>
                         <li>
                             <NavLink to="/about" className={({ isActive }) => (isActive ? 'sidebar-item is-active' : "sidebar-item")}>
-                                <div className="sidebar-item-icon"><FontAwesomeIcon icon={faLaughWink} color={defaultIconColor} />
+                                <div className="sidebar-item-icon"><FontAwesomeIcon icon={faLaughWink}  />
                                 </div>
-                                <div className="sidebar-item-text">
+                                <div className="sidebar-item-text ">
                                     About
                                 </div>
                             </NavLink>
                         </li>
                         <li>
                             <NavLink to="/dashboard" className={({ isActive }) => (isActive ? 'sidebar-item is-active' : "sidebar-item")}>
-                                <div className="sidebar-item-icon"><FontAwesomeIcon icon={faCodeBranch} color={defaultIconColor} />
+                                <div className="sidebar-item-icon"><FontAwesomeIcon icon={faCodeBranch}/>
                                 </div>
-                                <div className="sidebar-item-text">
+                                <div className="sidebar-item-text ">
                                     Dashboard
                                 </div>
                             </NavLink>
                         </li>
                         <li>
                             <NavLink to="/demo" className={({ isActive }) => (isActive ? 'sidebar-item is-active' : "sidebar-item")}>
-                                <div className="sidebar-item-icon"><FontAwesomeIcon icon={faBug} color={defaultIconColor} />
+                                <div className="sidebar-item-icon"><FontAwesomeIcon icon={faBug} />
                                 </div>
-                                <div className="sidebar-item-text">
+                                <div className="sidebar-item-text ">
                                     Demo
                                 </div>
                             </NavLink>

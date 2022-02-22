@@ -4,8 +4,8 @@
     left: 0;
     height: 100vh;
     width: 120px;
-    background-color: $white;
-    box-shadow: 2px 0px 2px 0px rgba(0, 0, 0, 0.02);
+    background-color: $fade-grey;
+    box-shadow: 2px 0px 2px 0px rgba(0, 0, 0, 0.1);
     border-right: 1px solid $fade-grey;
     z-index: 40;
     transition: all 0.3s;
@@ -16,9 +16,8 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background: #fff;
-        border-right: 1px solid $fade-grey;
-        border-bottom: 1px solid $fade-grey;
+        background: $light-white;
+        border-bottom: 1px solid $tile-grey;
 
         img {
             width: 60px;
@@ -29,7 +28,6 @@
     .sidebar-inner {
         height: calc(100% - 55px);
         width: 100%;
-        margin-top: 10px;
 
         .icon-menu {
             .sidebar-item {
@@ -60,12 +58,12 @@
                     margin-left: 0.2rem;
                 }
 
-                &.is-active
-                {
-                    background-color: $background-highlight;
-                    
+                &.is-active {
+                    background-color: darken($selected, 5%);
+
                     .sidebar-item-text {
                         color: $primary;
+                        font-weight: bold;
                     }
 
                     .sidebar-item-icon {
@@ -74,12 +72,13 @@
                         }
                     }
                 }
-               
+
                 &:hover {
-                    background-color: $background-highlight;
-                    
+                    background-color: $selected;
+
                     .sidebar-item-text {
                         color: $accent;
+                        font-weight: bold;
                     }
 
                     .sidebar-item-icon {
