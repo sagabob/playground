@@ -59,8 +59,8 @@
                 }
 
                 &.is-active {
-                    background-color: darken($selected, 5%);
-
+                    background-color: lighten($selected, 5%);
+                   
                     .sidebar-item-text {
                         color: $primary;
                         font-weight: bold;
@@ -74,7 +74,7 @@
                 }
 
                 &:hover {
-                    background-color: $selected;
+                    background-color: $selected ;
 
                     .sidebar-item-text {
                         color: $accent;
