@@ -157,9 +157,7 @@
             "title": "Bachelor's degree , Electrical and Electronics Engineering",
             "start": "2001",
             "end": "2003",
-            "notes": [
-                
-            ]
+            "notes": []
         }
     ],
     "skills": {
@@ -327,5 +325,15 @@
                 "badge": "https://www.credly.com/badges/c3d266c1-e7dd-4452-8ae8-c319188c7f92/public_url"
             }
         ]
-    }
+    },
+    "projects": [
+        {
+            "main_tool_icon": "https://i.imgur.com/u7y8A0g.png",
+            "link": "https://github.com/sagabob/playground",
+            "title": "Personal Blog",
+            "start_time": "Jan 2022",
+            "end_time": "Present",
+            "status": "Work in progress"
+        }
+    ]
 }

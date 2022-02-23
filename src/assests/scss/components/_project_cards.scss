@@ -1,25 +1,54 @@
 .project-card {
-    padding: 1rem;
+    padding: 0.5rem 1rem 1rem 1rem;
+    border-top: 10px solid $reactjs;
 
     h5 {
         font-family: $font-alt;
-        font-weight: 500;
-        font-size: 1rem;
+        font-weight: 400;
+        font-size: rem;
         text-transform: uppercase;
-        color: $primary;
+        color: $h-deep-blue;
         margin-bottom: 0.5rem;
     }
 
-    .project-card-section {
-        padding: 1rem;
+    .project-card-section {        
+        font-size: 0.7rem !important;
+
+        .section-content {
+            .project-wrapper {
+                .project-item-wrapper {
+                    
+                    .project-item {
+                        display: flex;
+                        align-items: center;
+                        width: 100%;
+
+                        .project-icon {
+                            width: 40px;
+                            min-width: 40px;
+                            height: 40px;
+                        }
+                        .meta {
+                            margin-left: 0.5rem;
+                            
+                            > span {
+                                font-family: $font;
+                                display: block;
+
+                                span {
+                                    padding-right: 0.5rem;
+                                }
+                            }
+
+                            .meta-title {
+                                font-weight: 400;
+                                font-size: 0.9rem;
+                                color: $h-deep-blue;
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }
-
-.is-height-600 {
-    height: 400px;
-}
-
-.is-height-300 {
-    height: 400px;
-}
-
