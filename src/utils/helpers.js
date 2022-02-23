@@ -30,7 +30,7 @@ const detectTabStyleBasedOnScreenMode = (inputScreenSizeMode) => {
         "left": "0px",
         "width": "100vw",
         "zIndex": 25,
-        "backgroundColor": "#77d2f3"
+        "backgroundColor": "#4cc9f0"  /**$h-lighter-blue */
     };
 
     return  stickyTabStyle;
