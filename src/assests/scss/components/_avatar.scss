@@ -24,3 +24,42 @@
         border-radius: 50%;
     }
 }
+
+.avatar-stack {
+    display: flex;
+
+    .h-avatar {
+        border-radius: 50%;
+
+        &:not(:first-child) {
+            $var: 10;
+
+            @for $i from 1 through 99 {
+                &:nth-child(#{$i}) {
+                    margin-left: -#{$var}px;
+                    z-index: $i;
+                }
+            }
+        }
+
+        .avatar-link {
+            display: inline-block;
+            height: 35px;
+            width: 35px;
+
+            .avatar {
+                width: 100%;
+                min-width:  100%;
+                height:  100%;
+                object-fit: cover;
+                border: 2px solid lighten($tile-grey, 25%);
+            }
+        }
+
+        .avatar-link:hover{            
+            .avatar{                
+                border: 2px solid lighten($h-light-blue, 10%);
+            }            
+        }
+    }
+}
