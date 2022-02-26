@@ -329,11 +329,35 @@
     "projects": [
         {
             "main_tool_icon": "https://i.imgur.com/u7y8A0g.png",
-            "link": "https://github.com/sagabob/playground",
-            "title": "Personal Blog",
+            "source_link": "https://github.com/sagabob/playground",
+            "app_link": "https://www.tdp-techground.info/",
+            "title": "Personal Blog 1",
             "start_time": "Jan 2022",
             "end_time": "Present",
-            "status": "Work in progress"
-        }
+            "status": "https://i.imgur.com/1RCTa6Z.png",
+            "note": "Simple react web app to show my resume & projects.",
+            "project_image": "https://i.imgur.com/NlkbpfG.png",
+            "project_description": "In this project, I attempt to simplify the use of CSS framework. That the reason, I use Bulma and try to mix it with styled-component anywhere I can.",
+            "tools": [
+                {
+                    "tool_name": "Vercel",
+                    "tool_icon": "https://i.imgur.com/QjKMuT8.png",
+                    "tool_link": "https://vercel.com/"
+                },
+                {
+                    "tool_name": "Bulma.io",
+                    "tool_icon": "https://i.imgur.com/qKYfn1V.png",
+                    "tool_link": "https://bulma.io/"
+                },
+                
+                {
+                    "tool_name": "React",
+                    "tool_icon": "https://i.imgur.com/t3ENqJA.png",
+                    "tool_link": "https://reactjs.org/"
+                }
+            ]
+        } 
+
+        
     ]
 }

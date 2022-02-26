@@ -3,17 +3,38 @@ import ProjectCard from '../components/ProjectCard'
 import ProfileData from '../content/profile.json'
 
 const Demo = () => {
+
+    const numberOfGroups = 4
+    const groups = []
+    for (let i = 0; i < numberOfGroups; i++)
+        groups[i] = []
+
+    let totalLength = ProfileData.projects.length    
+    let times = Math.ceil(totalLength/numberOfGroups)
+    
+    for (let t = 0; t < times; t++) {
+        for (let m = 0; m < numberOfGroups; m++) {
+            let ele = numberOfGroups * t + m
+            if (ele < totalLength)
+                groups[m].push(ProfileData.projects[ele])
+        }
+    }
+
+
+     
     return (
         <div className="app-wrapper">
             <div className="container app-content">
                 <h2>Playground</h2>
                 <div className="container mt-6">
                     <div className="columns is-multiline">
-                        <div className="column is-one-quarter-fullhd is-one-quarter-widescreen is-one-third-desktop is-one-third-tablet is-mobile">
-                            {ProfileData.projects.map((item, index) => (
-                                <ProjectCard {...item} key={index} />
+                        {groups.map((group_item, index) => (
+                            <div className="column is-one-quarter-fullhd is-one-quarter-widescreen is-one-third-desktop is-one-third-tablet is-mobile" key ={index}>
+                            {group_item.map((item, subindex) => (
+                                <ProjectCard {...item} key={subindex} />
                             ))}
-                        </div>
+                            </div>
+                        ))}                       
                     </div>
                 </div>
             </div>
