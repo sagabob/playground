@@ -1,6 +1,7 @@
 import React from 'react';
 import PositionComp from './PositionComp'
 
+
 const WorkplaceComp = (workspaceInfo) => {
     return <>
         <div className="experience-item-wrapper">

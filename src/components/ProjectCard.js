@@ -1,7 +1,7 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSquareArrowUpRight, faCheckCircle } from '@fortawesome/free-solid-svg-icons';
-
+import { faExternalLink, faCheckCircle } from '@fortawesome/free-solid-svg-icons';
+import {successColor, warningColor} from '../utils/colors'
 
 const ProjectCard = (projectInfo) => {
   return (
@@ -25,7 +25,7 @@ const ProjectCard = (projectInfo) => {
                 </span>
               </div>
               <div className="project-status">
-                <FontAwesomeIcon icon={faCheckCircle} />
+                <FontAwesomeIcon icon={faCheckCircle} color={projectInfo.isUpdated? successColor: warningColor }/>
               </div>
             </div>
             <div className="project-notes">
@@ -46,8 +46,8 @@ const ProjectCard = (projectInfo) => {
             <span>{projectInfo.project_description}</span>
           </div>
           <div className="card-footer project-action">
-            <a href={projectInfo.source_link} className="card-footer-item" target="_blank" rel="noreferrer"><span>View Source</span><FontAwesomeIcon icon={faSquareArrowUpRight} /></a>
-            <a href={projectInfo.app_link} className="card-footer-item" target="_blank" rel="noreferrer"><span>View App</span><FontAwesomeIcon icon={faSquareArrowUpRight} /></a>
+            <a href={projectInfo.source_link} className="card-footer-item" target="_blank" rel="noreferrer"><span>View Source</span><FontAwesomeIcon icon={faExternalLink} /></a>
+            <a href={projectInfo.app_link} className="card-footer-item" target="_blank" rel="noreferrer"><span>View App</span><FontAwesomeIcon icon={faExternalLink} /></a>
           </div>
         </div>
       </div>

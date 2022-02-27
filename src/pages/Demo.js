@@ -1,4 +1,5 @@
 import React from 'react'
+import ComppactProjectCard from '../components/ComppactProjectCard'
 import ProjectCard from '../components/ProjectCard'
 import ProfileData from '../content/profile.json'
 
@@ -31,7 +32,7 @@ const Demo = () => {
                         {groups.map((group_item, index) => (
                             <div className="column is-one-quarter-fullhd is-one-quarter-widescreen is-one-third-desktop is-one-third-tablet is-mobile" key ={index}>
                             {group_item.map((item, subindex) => (
-                                <ProjectCard {...item} key={subindex} />
+                                index%2===0 ?<ProjectCard {...item} key={subindex} />: <ComppactProjectCard  {...item} key={subindex} />                                
                             ))}
                             </div>
                         ))}                       
