@@ -1,7 +1,7 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSquareArrowUpRight, faCheckCircle } from '@fortawesome/free-solid-svg-icons';
-import {successColor,warningColor} from '../utils/colors'
+import { faExternalLink, faCheckCircle } from '@fortawesome/free-solid-svg-icons';
+import { successColor, warningColor } from '../utils/colors'
 
 const ComppactProjectCard = (projectInfo) => {
     return (
@@ -28,19 +28,23 @@ const ComppactProjectCard = (projectInfo) => {
                                 </span>
                             </div>
                             <div className="project-status">
-                                <FontAwesomeIcon icon={faCheckCircle} color={projectInfo.isUpdated? successColor: warningColor }/>
+                                <FontAwesomeIcon icon={faCheckCircle} color={projectInfo.isUpdated ? successColor : warningColor} />
                             </div>
                         </div>
                         <div className="project-notes">
                             <span>{projectInfo.note}</span>
                         </div>
-                        <div className="project-notes avatar-stack">
+                    </div>
+                    <div className="project-notes-compact">
+                        <div className="avatar-stack">
                             {projectInfo.tools.map((item, index) => (
                                 <div key={index} className="h-avatar is-small">
                                     <a href={item.tool_link} className="avatar-link"><img className="avatar" src={item.tool_icon} alt="" /></a>
                                 </div>
                             ))}
                         </div>
+                        <a href={projectInfo.source_link} className="card-footer-item" target="_blank" rel="noreferrer"><span>View Source</span><FontAwesomeIcon icon={faExternalLink} /></a>
+                        <a href={projectInfo.app_link} className="card-footer-item" target="_blank" rel="noreferrer"><span>View App</span><FontAwesomeIcon icon={faExternalLink} /></a>
                     </div>
                 </div>
             </div>
