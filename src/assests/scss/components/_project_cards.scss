@@ -8,8 +8,131 @@
         font-size: 0.7rem !important;
 
         .project-wrapper {
+            display: flex;
+            flex-direction: column;
             .project-header-wrapper {
-                padding: 0.5rem 1rem 1rem 1rem;
+                padding: 0.5rem 1rem 0.5rem 1rem;
+                box-shadow: inset 0px -11px 8px -10px #ccc;
+                z-index: 7;
+                .project-header {
+                    display: flex;
+                    align-items: center;
+                    width: 100%;
+
+                    .project-icon {
+                        width: 50px;
+                        min-width: 50px;
+                        height: 50px;
+
+                        .h-avatar {
+                            .badge {
+                                left: 0 !important;
+                                height: 20px;
+                                width: 20px;
+                                border: 1px solid $white;
+                            }
+                        }
+                    }
+                    .meta {
+                        > span {
+                            font-family: $font;
+                            display: block;
+
+                            span {
+                                padding-right: 0.5rem;
+                            }
+                        }
+
+                        .meta-title {
+                            font-weight: 400;
+                            font-size: 0.9rem;
+                            color: $h-deep-blue;
+                        }
+                    }
+
+                    .project-status {
+                        margin-left: auto;
+                        font-weight: 400;
+                        font-size: 1.5rem;
+                    }
+                }
+
+                .project-notes {
+                    font-size: 0.75rem !important;
+                    margin-top: 0.5rem;
+                    > span {
+                        font-family: $font;
+                        display: block;
+                    }
+                }
+            }
+
+            .project-image-area {
+                z-index: 5;
+                .project-image {
+                    min-width: 100%;
+                    display: block;
+                    object-fit: contain;
+                }
+            }
+            .project-description {
+                box-shadow: inset 0px 11px 8px -10px #ccc;
+                padding: 1rem 0.5rem;
+                font-size: 0.8rem !important;
+                > span {
+                    font-family: $font;
+                    display: block;
+                }
+            }
+
+            .project-action {
+                background-color: lighten($accent-grey, 17%);
+                border-top: 2px solid $accent-grey;
+
+                z-index: 7;
+                font-size: 0.9rem !important;
+                font-weight: 400;
+                .card-footer-item > span {
+                    margin-right: 0.5rem;
+                }
+
+                .card-footer-item:hover {
+                    background-color: $h-light-blue;
+                    color: $white;
+                }
+            }
+        }
+    }
+}
+
+.project-compact-card {
+    padding: 0px !important;
+    border-top: 15px solid $reactjs;
+    border-bottom: 10px solid $reactjs;
+    margin-bottom: 1.5rem;
+    .project-card-section {
+        font-size: 0.7rem !important;
+
+        .project-wrapper {
+            display: flex;
+            flex-direction: column;
+
+            .project-image-area {
+                .project-image {
+                    min-width: 100%;
+                    display: block;
+                    object-fit: contain;
+                    border-top: 2px solid $accent-grey;
+                }
+            }
+
+            .project-header-wrapper {
+                padding: 0.5rem 1rem 0.5rem 1rem;
+                z-index: 5;
+                border-top: 2px solid $accent-grey;
+                margin-top: -4rem;
+                background-color: lighten($accent-grey, 20%);
+                box-shadow: inset 0px 11px 8px -10px #ccc;
 
                 .project-header {
                     display: flex;
@@ -54,7 +177,6 @@
                         color: $success;
                     }
                 }
-
                 .project-notes {
                     font-size: 0.75rem !important;
                     margin-top: 0.5rem;
@@ -62,37 +184,6 @@
                         font-family: $font;
                         display: block;
                     }
-                }
-            }
-
-            .project-image-area {
-                .project-image {
-                    min-width: 100%;
-                    display: block;
-                    object-fit: contain;
-                    border-top: 2px solid $accent-grey;
-                    border-bottom: 2px solid $accent-grey;
-                }
-            }
-            .project-description {
-                padding: 1rem 0.5rem;
-                font-size: 0.8rem !important;
-                > span {
-                    font-family: $font;
-                    display: block;
-                }
-            }
-
-            .project-action {
-                font-size: 0.9rem !important;
-                font-weight: 400;
-                .card-footer-item > span {
-                    margin-right: 0.5rem;
-                }
-
-                .card-footer-item:hover {
-                    background-color: $h-light-blue;
-                    color: $white;
                 }
             }
         }
