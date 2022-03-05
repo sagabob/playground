@@ -4,6 +4,7 @@
     border-bottom: 10px solid $reactjs;
     margin-bottom: 1.5rem;
     transition: box-shadow 0.3s;
+
     .project-card-section {
         font-size: 0.7rem !important;
 
@@ -15,22 +16,29 @@
                 padding: 0.5rem 1rem 0.5rem 1rem;
                 box-shadow: inset 0px -11px 8px -10px #ccc;
                 z-index: 7;
+
                 .project-header {
                     display: flex;
                     align-items: center;
                     width: 100%;
 
                     .project-icon {
-                        width: 50px;
-                        min-width: 50px;
-                        height: 50px;
+                        width: 40px;
+                        min-width: 40px;
+                        height: 40px;
+                        margin-right: 0.5rem;
 
                         .h-avatar {
-                            .badge {
-                                left: 0 !important;
-                                height: 20px;
-                                width: 20px;
-                                border: 1px solid $white;
+                            .avatar {
+                                width: 100%;
+                                min-width: 100%;
+                                height: 100%;
+                                object-fit: contain;
+                            }
+
+                            img {
+                                display: block;
+                                border-radius: 10% !important;
                             }
                         }
                     }
@@ -79,9 +87,9 @@
             .project-description {
                 box-shadow: inset 0px 11px 8px -10px #ccc;
                 padding: 1rem 0.5rem;
-                font-size: 0.8rem !important;
+                font-size: 0.75rem !important;
                 > span {
-                    font-family: $font;
+                    font-family: $font-alt;
                     display: block;
                 }
             }
@@ -89,10 +97,10 @@
             .project-action {
                 background-color: lighten($accent-grey, 17%);
                 border-top: 2px solid $accent-grey;
-
                 z-index: 7;
                 font-size: 0.9rem !important;
                 font-weight: 400;
+
                 .card-footer-item > span {
                     margin-right: 0.2rem;
                 }
@@ -106,11 +114,9 @@
     }
 }
 
-
 .project-card:hover {
-    box-shadow: 0 0 11px rgba(33, 33, 33, 0.5);    
+    box-shadow: 0 0 11px rgba(33, 33, 33, 0.5);
 }
-
 
 .project-compact-card {
     padding: 0px !important;
@@ -118,6 +124,7 @@
     border-bottom: 10px solid $reactjs;
     margin-bottom: 1.5rem;
     transition: box-shadow 0.3s;
+
     .project-card-section {
         font-size: 0.7rem !important;
 
@@ -149,16 +156,21 @@
                     width: 100%;
 
                     .project-icon {
-                        width: 50px;
-                        min-width: 50px;
-                        height: 50px;
-
+                        width:40px;
+                        min-width: 40px;
+                        height: 40px;
+                        margin-right: 0.5rem;
                         .h-avatar {
-                            .badge {
-                                left: 0 !important;
-                                height: 20px;
-                                width: 20px;
-                                border: 1px solid $white;
+                            .avatar {
+                                width: 100%;
+                                min-width: 100%;
+                                height: 100%;
+                                object-fit: contain;
+                            }
+
+                            img {
+                                display: block;
+                                border-radius: 10% !important;
                             }
                         }
                     }
@@ -221,5 +233,4 @@
 
 .project-compact-card:hover {
     box-shadow: 0 0 11px rgba(33, 33, 33, 0.5);
-    
 }

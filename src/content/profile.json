@@ -328,7 +328,7 @@
     },
     "projects": [
         {
-            "main_tool_icon": "https://i.imgur.com/u7y8A0g.png",
+            "main_tool_icon": "https://assets.codepen.io/1104386/web_v1.png",
             "source_link": "https://github.com/sagabob/playground",
             "app_link": "https://www.tdp-techground.info/",
             "title": "Personal Blog",
@@ -359,7 +359,7 @@
             ]
         },
         {
-            "main_tool_icon": "https://i.imgur.com/u7y8A0g.png",
+            "main_tool_icon": "https://assets.codepen.io/1104386/web_v1.png",
             "source_link": "https://github.com/sagabob/ReactNetflixApp",
             "app_link": "https://react-netflix-app.vercel.app/",
             "title": "Netflix Clone",
@@ -367,7 +367,7 @@
             "end_time": "Present",
             "status": "https://i.imgur.com/1RCTa6Z.png",
             "isUpdated" : false,
-            "note": "A simple clone of Netflix with Firestore authentication.",
+            "note": "A simple clone of Netflix with Firestore auth.",
             "project_image": "https://i.imgur.com/21re4D4.png",
             "project_description": "In this project, I attempt to re-create Netflix layout, but also add my point of view on the UI.",
             "tools": [
