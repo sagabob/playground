@@ -1,7 +1,4 @@
 import React from 'react'
-import ComppactProjectCard from '../components/ComppactProjectCard'
-import ProjectCard from '../components/ProjectCard'
-import ProfileData from '../content/profile.json'
 
 const Dashboard = () => {
 

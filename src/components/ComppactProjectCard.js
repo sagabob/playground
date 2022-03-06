@@ -15,8 +15,7 @@ const ComppactProjectCard = (projectInfo) => {
                         <div className="project-header">
                             <div className="project-icon">
                                 <div className="h-avatar">
-                                    <img src={projectInfo.main_tool_icon} className="avatar" alt="" />
-                                    <img className="badge" src={projectInfo.status} alt="location" />
+                                    <img src={projectInfo.main_tool_icon} className="avatar" alt="" />                                    
                                 </div>
                             </div>
                             <div className="meta">
@@ -28,7 +27,7 @@ const ComppactProjectCard = (projectInfo) => {
                                 </span>
                             </div>
                             <div className="project-status">
-                                <FontAwesomeIcon icon={faCheckCircle} color={projectInfo.isUpdated ? successColor : warningColor} />
+                                <FontAwesomeIcon icon={faCheckCircle} color={projectInfo.isUpdated ? successColor : warningColor} data-tooltip="Tooltip Text"/>
                             </div>
                         </div>
                         <div className="project-notes">
