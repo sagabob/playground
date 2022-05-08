@@ -300,12 +300,7 @@
                 "icon": "https://i.imgur.com/pKEn1Nt.png",
                 "experience": "Advanced level"
             },
-            {
-                "name": "Tensorflow",
-                "metric": 85,
-                "icon": "https://i.imgur.com/zkRMiKz.jpg",
-                "experience": "Advanced level"
-            },
+           
             {
                 "name": "Hexagon Geospatial Product Suite",
                 "metric": 88,
