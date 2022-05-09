@@ -25,10 +25,11 @@ const CertificationComp = (certificationInfo) => {
                     <li>
                         <a className="button is-outlined is-smal is-link" href={certificationInfo.badge} target="_blank" rel="noreferrer">
                             <span className="icon is-small">
-                                <FontAwesomeIcon icon={faForward} color={primaryIconColor} size="sm"/>
+                                <FontAwesomeIcon icon={faForward} color={primaryIconColor} size="sm" />
                             </span>
                             <span>Credential</span>
-                        </a></li>
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>
