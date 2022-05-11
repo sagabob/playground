@@ -9,7 +9,7 @@
     ],
     "stat": {
         "connection": "50+ Relations",
-        "projects": "18 Projects"
+        "projects": "12 Projects"
     },
     "links": {
         "linkedin": "https://www.linkedin.com/in/bob-pham-93937973/",
@@ -42,7 +42,7 @@
                         "location": "Melbourne, Australia",
                         "highlights": [
                             "Handle all technical work (design/architechture/develop/deploy) on all 3 business applications.",
-                            "Maintain the infrastructure."
+                            "Maintain the infrastructure on premise and cloud."
                         ]
                     }
                 ]
@@ -167,9 +167,8 @@
                 "metric": 93,
                 "experience": "10+ years of experience",
                 "skill_notes": [
-                    "Part of daily work for years.",
-                    "Have advanced knowledge of the language.",
-                    "Last 5+ years, use more ES6 version."
+                    "Part of daily work for last 5+ years.",
+                    "Have advanced knowledge of the language."
                 ]
             },
             {
@@ -178,7 +177,7 @@
                 "experience": "10+ years of experience",
                 "skill_notes": [
                     "Part of daily work for years.",
-                    "Solid & advanced understanding of the language, hand-son experience in developing many applications.",
+                    "Solid & advanced understanding of the language, hands-on experience in developing many applications.",
                     "Currently work with DotNet Framework 4.6 & DotNet Core 3.1, will update to 5 soon."
                 ]
             },
@@ -195,7 +194,7 @@
                 "metric": 81,
                 "experience": "5+ years of experience",
                 "skill_notes": [
-                    "Use to be a part of daily work (2 years ago)  when doing deployment."
+                    "Used to be a part of daily work (2 years ago) for doing deployment."
                 ]
             },
             {
@@ -204,8 +203,7 @@
                 "experience": "3+ years of experience",
                 "skill_notes": [
                     "Part of daily work for the last 2+ years.",
-                    "All the work on data analysis, wrangling, and machine learning.",
-                    "Will use Python on WebFrameworks soon."
+                    "Work on data analysis, wrangling, and machine learning."
                 ]
             },
             {
@@ -214,7 +212,7 @@
                 "experience": "7+ years of experience",
                 "skill_notes": [
                     "Part of daily work for years.",
-                    "Solid understanding of the languages, hand-son experience in developing many applications."
+                    "Solid understanding of the languages, hands-on experience in developing many applications."
                 ]
             }
         ],
@@ -226,7 +224,7 @@
                 "skill_notes": [
                     "Part of daily work for years.",
                     "Solid & advanced understanding of the stack from aspects (design patterns/architechture/development/deployment)",
-                    "Hand-son experience in using the stack to develop many business applications.",
+                    "Hands-on experience in using the stack to develop many business applications.",
                     "Currently work on DotNet Framework 4.6 & DotNet Core 3.1, will update to 5 soon."
                 ]
             },
@@ -235,8 +233,7 @@
                 "metric": 88,
                 "experience": "5+ years of experience",
                 "skill_notes": [
-                    "Part of daily work.",
-                    "Use most of its functions"
+                    "Part of daily work."
                 ]
             },
             {
@@ -245,7 +242,7 @@
                 "experience": "5+ years of experience",
                 "skill_notes": [
                     "Part of daily work.",
-                    "Use most of common services such as MSSQL, CosmoDb, VM, Fabric cluster."
+                    "Use most of common services such as MSSQL, CosmoDb, Virtual Machine, Fabric cluster."
                 ]
             },
             {
@@ -254,7 +251,7 @@
                 "experience": "3+ years of experience",
                 "skill_notes": [
                     "Fabric (Microsoft's container orchestrator) is part of daily work for recent 3+ years.",
-                    "Solid & advanced understanding of the Docker, hand-son experience in using it to developing many business applications",
+                    "Solid & advanced understanding of the Docker, hands-on experience in using it to developing many business applications",
                     "Currently learning Kubernetes, try to migrate from Fabric to K8s."
                 ]
             },
@@ -265,8 +262,7 @@
                 "skill_notes": [
                     "Part of daily work for years.",
                     "Solid understanding, hands-on experience in implementing many applications.",
-                    "Also work closely with other React frameworks Gastby and Nextjs.",
-                    "Hands-on experience in using its common state management libraries such as Redux."
+                    "Also work closely with other React frameworks Gastby and Nextjs."
                 ]
             },
             {
@@ -274,7 +270,7 @@
                 "metric": 81,
                 "experience": "5+ years of experience",
                 "skill_notes": [
-                    "Solid understanding of the tool, hand-son experience in using the Nodejs in developing many Nodejs related applications."
+                    "Solid understanding of the tool, hands-on experience in using the Nodejs in developing many Nodejs related applications."
                 ]
             },
             {
@@ -283,7 +279,7 @@
                 "experience": "5+ years of experience",
                 "skill_notes": [
                     "Part of daily work for recent 3+ years.",
-                    "Solid & advanced understanding of the tools, hand-son experience in using the tools to developing many business applications (use GraphQL connection)"
+                    "Solid & advanced understanding of the tools, hands-on experience in using the tools to developing many business applications (use GraphQL connection)"
                 ]
             }
         ],
@@ -294,13 +290,6 @@
                 "icon": "https://i.imgur.com/VzbhI5w.jpg",
                 "experience": "Advanced level"
             },
-            {
-                "name": "Visual Studio Code",
-                "metric": 88,
-                "icon": "https://i.imgur.com/pKEn1Nt.png",
-                "experience": "Advanced level"
-            },
-           
             {
                 "name": "Hexagon Geospatial Product Suite",
                 "metric": 88,
@@ -323,6 +312,7 @@
     },
     "projects": [
         {
+            "card_type": 0,
             "main_tool_icon": "https://assets.codepen.io/1104386/web_v1.png",
             "source_link": "https://github.com/sagabob/playground",
             "app_link": "https://www.tdp-techground.info/",
@@ -330,10 +320,10 @@
             "start_time": "Jan 2022",
             "end_time": "Present",
             "status": "https://i.imgur.com/1RCTa6Z.png",
-            "isUpdated" : true,
+            "isUpdated": true,
             "note": "Simple react web app to show my resume & projects.",
             "project_image": "https://i.imgur.com/NlkbpfG.png",
-            "project_description": "In this project, I attempt to simplify the use of CSS framework. For that the reason, I use Bulma framework and try to mix it with styled-component anywhere I can.",
+            "project_description": "Experiment Bulma css and mix with styled-component.",
             "tools": [
                 {
                     "tool_name": "Vercel",
@@ -345,7 +335,6 @@
                     "tool_icon": "https://i.imgur.com/qKYfn1V.png",
                     "tool_link": "https://bulma.io/"
                 },
-                
                 {
                     "tool_name": "React",
                     "tool_icon": "https://i.imgur.com/t3ENqJA.png",
@@ -354,6 +343,7 @@
             ]
         },
         {
+            "card_type": 1,
             "main_tool_icon": "https://assets.codepen.io/1104386/web_v1.png",
             "source_link": "https://github.com/sagabob/ReactNetflixApp",
             "app_link": "https://saga-netflix.web.app/",
@@ -361,10 +351,10 @@
             "start_time": "Jan 2021",
             "end_time": "Present",
             "status": "https://i.imgur.com/1RCTa6Z.png",
-            "isUpdated" : false,
+            "isUpdated": false,
             "note": "A simple clone of Netflix with Firestore authentation.",
             "project_image": "https://i.imgur.com/21re4D4.png",
-            "project_description": "In this project, I attempt to re-create Netflix layout, but also add my point of view on the UI.",
+            "project_description": "Attempt to re-create Netflix layout, but also add my point of view on the UI.",
             "tools": [
                 {
                     "tool_name": "Vercel",
@@ -376,15 +366,64 @@
                     "tool_icon": "https://i.imgur.com/ISDpnGy.jpg",
                     "tool_link": "https://firebase.google.com/"
                 },
-                
                 {
                     "tool_name": "React",
                     "tool_icon": "https://i.imgur.com/t3ENqJA.png",
                     "tool_link": "https://reactjs.org/"
                 }
             ]
-        }     
-
-        
+        },
+        {
+            "card_type": 2,
+            "main_tool_icon": "https://assets.codepen.io/1104386/web_v1.png",
+            "source_link": "https://github.com/sagabob/GeoSpatialDataTypeConverter",
+            "app_link": null,
+            "title": "Geospatial converting service",
+            "start_time": "Sep 2020",
+            "end_time": "Nov 2020",
+            "status": "https://i.imgur.com/1RCTa6Z.png",
+            "isUpdated": true,
+            "note": "A simple geospatial converting service.",
+            "project_image": null,
+            "project_description": "Converts uploaded geojson file into gml, kml (Google Earth format) and another way around.",
+            "tools": [
+                {
+                    "tool_name": "Firebase",
+                    "tool_icon": "https://i.imgur.com/04KKBRl.png",
+                    "tool_link": "https://gdal.org/"
+                },
+                {
+                    "tool_name": "CSharp",
+                    "tool_icon": "https://i.imgur.com/s1xuCPI.png",
+                    "tool_link": "https://docs.microsoft.com/en-us/dotnet/csharp/"
+                }               
+            ]
+        },
+        {
+            "card_type": 0,
+            "main_tool_icon": "https://i.imgur.com/KKSMaBA.png",
+            "source_link": "https://github.com/sagabob/ThdpGisAppApi",
+            "app_link": "http://128.199.254.80/index.html",
+            "title": "Geospatial converting service",
+            "start_time": "Sep 2020",
+            "end_time": "Feb 2021",
+            "status": "https://i.imgur.com/1RCTa6Z.png",
+            "isUpdated": true,
+            "note": "A WebApi provides Restful services on searching geospatial features.",
+            "project_image": "https://i.imgur.com/8f2hx4q.png",
+            "project_description": "A dotnet-core WebApi provides Restful services on searching geospatial features such as interested points or properties.",
+            "tools": [
+                {
+                    "tool_name": "CSharp",
+                    "tool_icon": "https://i.imgur.com/s1xuCPI.png",
+                    "tool_link": "https://docs.microsoft.com/en-us/dotnet/csharp/"
+                },   
+                {
+                    "tool_name": "MongoDb",
+                    "tool_icon": "https://i.imgur.com/oAiIi6v.png",
+                    "tool_link": "https://www.mongodb.com/"
+                }                            
+            ]
+        }
     ]
 }
