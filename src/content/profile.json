@@ -300,12 +300,7 @@
                 "icon": "https://i.imgur.com/pKEn1Nt.png",
                 "experience": "Advanced level"
             },
-            {
-                "name": "Tensorflow",
-                "metric": 85,
-                "icon": "https://i.imgur.com/zkRMiKz.jpg",
-                "experience": "Advanced level"
-            },
+           
             {
                 "name": "Hexagon Geospatial Product Suite",
                 "metric": 88,
@@ -361,7 +356,7 @@
         {
             "main_tool_icon": "https://assets.codepen.io/1104386/web_v1.png",
             "source_link": "https://github.com/sagabob/ReactNetflixApp",
-            "app_link": "https://react-netflix-app.vercel.app/",
+            "app_link": "https://saga-netflix.web.app/",
             "title": "Netflix Clone",
             "start_time": "Jan 2021",
             "end_time": "Present",
