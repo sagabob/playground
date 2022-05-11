@@ -5,9 +5,7 @@ const Dashboard = () => {
   return (
     <div className="app-wrapper">
       <div className="container app-content">
-        <h2>Dashboard</h2>
-        
-       
+        <h2>Dashboard</h2>      
       </div>
     </div>
   )
