@@ -235,3 +235,115 @@
 .project-compact-card:hover {
     box-shadow: 0 0 11px rgba(33, 33, 33, 0.5);
 }
+
+
+.project-small-card {
+    padding: 0px !important;
+    border-top: 15px solid $reactjs;
+    border-bottom: 10px solid $reactjs;
+    margin-bottom: 1.5rem;
+    transition: box-shadow 0.3s;
+
+    .project-card-section {
+        font-size: 0.7rem !important;
+
+        .project-wrapper {
+            display: flex;
+            flex-direction: column;
+
+            .project-header-wrapper {
+                padding: 0.5rem 1rem 0.5rem 1rem;                
+                z-index: 7;
+
+                .project-header {
+                    display: flex;
+                    align-items: center;
+                    width: 100%;
+
+                    .project-icon {
+                        width: 40px;
+                        min-width: 40px;
+                        height: 40px;
+                        margin-right: 0.5rem;
+
+                        .h-avatar {
+                            .avatar {
+                                width: 100%;
+                                min-width: 100%;
+                                height: 100%;
+                                object-fit: contain;
+                            }
+
+                            img {
+                                display: block;
+                                border-radius: 10% !important;
+                            }
+                        }
+                    }
+                    .meta {
+                        > span {
+                            font-family: $font;
+                            display: block;
+
+                            span {
+                                padding-right: 0.5rem;
+                            }
+                        }
+
+                        .meta-title {
+                            font-weight: 400;
+                            font-size: 0.9rem;
+                            color: $h-deep-blue;
+                        }
+                    }
+
+                    .project-status {
+                        margin-left: auto;
+                        font-weight: 400;
+                        font-size: 1.5rem;
+                    }
+                }
+
+                .project-notes {
+                    font-size: 0.75rem !important;
+                    margin-top: 0.5rem;
+                    > span {
+                        font-family: $font;
+                        display: block;
+                    }
+                }
+            }
+           
+
+            .project-description {                
+                padding: 0.1rem 0.5rem 1rem 0.5rem;
+                font-size: 0.75rem !important;
+                > span {
+                    font-family: $font-alt;
+                    display: block;
+                }
+            }
+
+            .project-action {
+                background-color: lighten($accent-grey, 17%);
+                border-top: 2px solid $accent-grey;
+                z-index: 7;
+                font-size: 0.9rem !important;
+                font-weight: 400;
+
+                .card-footer-item > span {
+                    margin-right: 0.2rem;
+                }
+
+                .card-footer-item:hover {
+                    background-color: $h-light-blue;
+                    color: $white;
+                }
+            }
+        }
+    }
+}
+
+.project-card:hover {
+    box-shadow: 0 0 11px rgba(33, 33, 33, 0.5);
+}

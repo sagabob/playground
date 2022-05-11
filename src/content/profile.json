@@ -168,7 +168,7 @@
                 "experience": "10+ years of experience",
                 "skill_notes": [
                     "Part of daily work for last 5+ years.",
-                    "Have advanced knowledge of the language."                    
+                    "Have advanced knowledge of the language."
                 ]
             },
             {
@@ -203,7 +203,7 @@
                 "experience": "3+ years of experience",
                 "skill_notes": [
                     "Part of daily work for the last 2+ years.",
-                    "Work on data analysis, wrangling, and machine learning."                   
+                    "Work on data analysis, wrangling, and machine learning."
                 ]
             },
             {
@@ -233,7 +233,7 @@
                 "metric": 88,
                 "experience": "5+ years of experience",
                 "skill_notes": [
-                    "Part of daily work."                    
+                    "Part of daily work."
                 ]
             },
             {
@@ -262,7 +262,7 @@
                 "skill_notes": [
                     "Part of daily work for years.",
                     "Solid understanding, hands-on experience in implementing many applications.",
-                    "Also work closely with other React frameworks Gastby and Nextjs."                   
+                    "Also work closely with other React frameworks Gastby and Nextjs."
                 ]
             },
             {
@@ -289,7 +289,7 @@
                 "metric": 91,
                 "icon": "https://i.imgur.com/VzbhI5w.jpg",
                 "experience": "Advanced level"
-            },                       
+            },
             {
                 "name": "Hexagon Geospatial Product Suite",
                 "metric": 88,
@@ -312,6 +312,7 @@
     },
     "projects": [
         {
+            "card_type": 0,
             "main_tool_icon": "https://assets.codepen.io/1104386/web_v1.png",
             "source_link": "https://github.com/sagabob/playground",
             "app_link": "https://www.tdp-techground.info/",
@@ -319,10 +320,10 @@
             "start_time": "Jan 2022",
             "end_time": "Present",
             "status": "https://i.imgur.com/1RCTa6Z.png",
-            "isUpdated" : true,
+            "isUpdated": true,
             "note": "Simple react web app to show my resume & projects.",
             "project_image": "https://i.imgur.com/NlkbpfG.png",
-            "project_description": "In this project, I attempt to simplify the use of CSS framework. For that the reason, I use Bulma framework and try to mix it with styled-component anywhere I can.",
+            "project_description": "Experiment Bulma css and mix with styled-component.",
             "tools": [
                 {
                     "tool_name": "Vercel",
@@ -334,7 +335,6 @@
                     "tool_icon": "https://i.imgur.com/qKYfn1V.png",
                     "tool_link": "https://bulma.io/"
                 },
-                
                 {
                     "tool_name": "React",
                     "tool_icon": "https://i.imgur.com/t3ENqJA.png",
@@ -343,6 +343,7 @@
             ]
         },
         {
+            "card_type": 1,
             "main_tool_icon": "https://assets.codepen.io/1104386/web_v1.png",
             "source_link": "https://github.com/sagabob/ReactNetflixApp",
             "app_link": "https://saga-netflix.web.app/",
@@ -350,10 +351,10 @@
             "start_time": "Jan 2021",
             "end_time": "Present",
             "status": "https://i.imgur.com/1RCTa6Z.png",
-            "isUpdated" : false,
+            "isUpdated": false,
             "note": "A simple clone of Netflix with Firestore authentation.",
             "project_image": "https://i.imgur.com/21re4D4.png",
-            "project_description": "In this project, I attempt to re-create Netflix layout, but also add my point of view on the UI.",
+            "project_description": "Attempt to re-create Netflix layout, but also add my point of view on the UI.",
             "tools": [
                 {
                     "tool_name": "Vercel",
@@ -365,15 +366,38 @@
                     "tool_icon": "https://i.imgur.com/ISDpnGy.jpg",
                     "tool_link": "https://firebase.google.com/"
                 },
-                
                 {
                     "tool_name": "React",
                     "tool_icon": "https://i.imgur.com/t3ENqJA.png",
                     "tool_link": "https://reactjs.org/"
                 }
             ]
-        }     
-
-        
+        },
+        {
+            "card_type": 2,
+            "main_tool_icon": "https://assets.codepen.io/1104386/web_v1.png",
+            "source_link": "https://github.com/sagabob/GeoSpatialDataTypeConverter",
+            "app_link": null,
+            "title": "Geospatial converting service",
+            "start_time": "Sep 2020",
+            "end_time": "Nov 2020",
+            "status": "https://i.imgur.com/1RCTa6Z.png",
+            "isUpdated": true,
+            "note": "A simple geospatial converting service.",
+            "project_image": null,
+            "project_description": "Converts uploaded geojson file into gml, kml (Google Earth format) and another way around",
+            "tools": [
+                {
+                    "tool_name": "Firebase",
+                    "tool_icon": "https://i.imgur.com/04KKBRl.png",
+                    "tool_link": "hhttps://gdal.org/"
+                },
+                {
+                    "tool_name": "CSharp",
+                    "tool_icon": "https://i.imgur.com/s1xuCPI.png",
+                    "tool_link": "https://docs.microsoft.com/en-us/dotnet/csharp/"
+                }               
+            ]
+        }
     ]
 }
