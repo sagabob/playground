@@ -204,8 +204,7 @@
                 "experience": "3+ years of experience",
                 "skill_notes": [
                     "Part of daily work for the last 2+ years.",
-                    "All the work on data analysis, wrangling, and machine learning.",
-                    "Will use Python on WebFrameworks soon."
+                    "Work on data analysis, wrangling, and machine learning."                   
                 ]
             },
             {
@@ -293,14 +292,7 @@
                 "metric": 91,
                 "icon": "https://i.imgur.com/VzbhI5w.jpg",
                 "experience": "Advanced level"
-            },
-            {
-                "name": "Visual Studio Code",
-                "metric": 88,
-                "icon": "https://i.imgur.com/pKEn1Nt.png",
-                "experience": "Advanced level"
-            },
-           
+            },                       
             {
                 "name": "Hexagon Geospatial Product Suite",
                 "metric": 88,
