@@ -167,9 +167,8 @@
                 "metric": 93,
                 "experience": "10+ years of experience",
                 "skill_notes": [
-                    "Part of daily work for years.",
-                    "Have advanced knowledge of the language.",
-                    "Last 5+ years, use more ES6 version."
+                    "Part of daily work for last 5+ years.",
+                    "Have advanced knowledge of the language."                    
                 ]
             },
             {
@@ -195,7 +194,7 @@
                 "metric": 81,
                 "experience": "5+ years of experience",
                 "skill_notes": [
-                    "Use to be a part of daily work (2 years ago)  when doing deployment."
+                    "Used to be a part of daily work (2 years ago) for doing deployment."
                 ]
             },
             {
@@ -234,8 +233,7 @@
                 "metric": 88,
                 "experience": "5+ years of experience",
                 "skill_notes": [
-                    "Part of daily work.",
-                    "Use most of its functions"
+                    "Part of daily work."                    
                 ]
             },
             {
@@ -244,7 +242,7 @@
                 "experience": "5+ years of experience",
                 "skill_notes": [
                     "Part of daily work.",
-                    "Use most of common services such as MSSQL, CosmoDb, VM, Fabric cluster."
+                    "Use most of common services such as MSSQL, CosmoDb, Virtual Machine, Fabric cluster."
                 ]
             },
             {
@@ -264,8 +262,7 @@
                 "skill_notes": [
                     "Part of daily work for years.",
                     "Solid understanding, hands-on experience in implementing many applications.",
-                    "Also work closely with other React frameworks Gastby and Nextjs.",
-                    "Hands-on experience in using its common state management libraries such as Redux."
+                    "Also work closely with other React frameworks Gastby and Nextjs."                   
                 ]
             },
             {
