@@ -20,8 +20,6 @@ const Demo = () => {
                 groups[m].push(ProfileData.projects[ele])
         }
     }
-
-
      
     return (
         <div className="app-wrapper">
