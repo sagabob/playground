@@ -15,16 +15,16 @@ const Home = () => {
                   <section id="terminal">
                     <nav className="terminal_nav">
                       <div className="terminal_nav__btns">
-                        <button class="terminal_nav__btn t-exit">&#10005;</button>
-                        <button class="terminal_nav__btn">&#9723;</button>
-                        <button class="terminal_nav__btn">&#9472;</button>
+                        <button className="terminal_nav__btn t-exit">&#10005;</button>
+                        <button className="terminal_nav__btn">&#9723;</button>
+                        <button className="terminal_nav__btn">&#9472;</button>
                       </div>
                       <p class="terminal_nav__title">Terminal</p>
                     </nav>
                     <section id="terminal_body">
-                      <div class="terminal__text">- 👋 Hi, my name is Bob Pham, a full-stack DotNet developer</div>
-                      <div class="terminal__text">- 📌 Living in Melbourne, Australia</div>
-                      <div class="terminal__text">- 📫 Reach me: bobpham.tdp@gmail.com</div>
+                      <div className="terminal__text">- 👋 Hi, my name is Bob Pham, a full-stack DotNet developer</div>
+                      <div className="terminal__text">- 📌 Living in Melbourne, Australia</div>
+                      <div className="terminal__text">- 📫 Reach me: bobpham.tdp@gmail.com</div>
                     </section>
                   </section>
                 </div>
