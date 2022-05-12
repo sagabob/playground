@@ -43,7 +43,7 @@ const App = () => {
     <AppContextProvider value={{ screenSizeMode, scrollValue }}>
       <Routes>
         <Route path="/" element={<AppRoute />}>
-          <Route index element={<About />} />  
+          <Route index element={<Home />} />  
           <Route path="home" element={<Home />} />       
           <Route path="about" element={<About />} />
           <Route path="dashboard" element={<Demo />} />         
