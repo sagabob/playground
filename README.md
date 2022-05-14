@@ -28,7 +28,7 @@ A simple website to show my resume and personal projects (workin in progress).
 ## Built With
 * [React](https://reactjs.org/)
 * [Bulma.io](https://bulma.io/)
-  <br/>Bulma is a simple css framework which fits our intention  
+  <br/>Bulma is a simple css framework which fits our intention.  
 * [Vercel](https://vercel.com/)
   <br/>Vercel is simple and cheap platform. It is used to build & deploy the site.
 
