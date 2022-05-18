@@ -38,6 +38,7 @@
                 justify-content: left;
                 flex-direction: row;
                 flex-wrap: wrap;
+                border-bottom: 2px solid $selected;
 
                 .sidebar-item-icon {
                     width: 40px;
