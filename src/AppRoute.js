@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './assests/images/logos/tdp-logo.svg';
+import logo from './assets/images/logos/tdp-logo.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLaughWink, faCodeBranch, faHome } from '@fortawesome/free-solid-svg-icons';
 import { Outlet, NavLink } from "react-router-dom";
@@ -16,7 +16,6 @@ const AppRoute = () => {
                     </a>
                     <div className="lite-nav-bar">
                         <ul className="icon-menu">
-
                             <li >
                                 <NavLink to="/home" className={({ isActive }) => (isActive ? 'is-active' : "")}><span><FontAwesomeIcon icon={faHome} color={defaultIconColor} /></span></NavLink>
                             </li>
