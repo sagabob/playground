@@ -18,15 +18,15 @@ const AppRoute = () => {
                         <ul className="icon-menu">
 
                             <li >
-                                <NavLink to="/home" className={({ isActive }) => (isActive ? 'is-active' : "")}><FontAwesomeIcon icon={faHome} color={defaultIconColor} /></NavLink>
+                                <NavLink to="/home" className={({ isActive }) => (isActive ? 'is-active' : "")}><span><FontAwesomeIcon icon={faHome} color={defaultIconColor} /></span></NavLink>
                             </li>
 
                             <li >
-                                <NavLink to="/about" className={({ isActive }) => (isActive ? 'is-active' : "")}><FontAwesomeIcon icon={faLaughWink} color={defaultIconColor} /></NavLink>
+                                <NavLink to="/about" className={({ isActive }) => (isActive ? 'is-active' : "")}><span><FontAwesomeIcon icon={faLaughWink} color={defaultIconColor} /></span></NavLink>
                             </li>
 
                             <li>
-                                <NavLink to="/dashboard" className={({ isActive }) => (isActive ? 'is-active' : "")}><FontAwesomeIcon icon={faCodeBranch} color={defaultIconColor} /></NavLink>
+                                <NavLink to="/dashboard" className={({ isActive }) => (isActive ? 'is-active' : "")}><span><FontAwesomeIcon icon={faCodeBranch} color={defaultIconColor} /></span></NavLink>
                             </li>
                         </ul>
                     </div>
