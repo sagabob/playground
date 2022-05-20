@@ -19,7 +19,7 @@ const Home = () => {
                         <button className="terminal_nav__btn">&#9723;</button>
                         <button className="terminal_nav__btn">&#9472;</button>
                       </div>
-                      <p class="terminal_nav__title">Terminal</p>
+                      <p className="terminal_nav__title">Terminal</p>
                     </nav>
                     <section id="terminal_body">
                       <div className="terminal__text">- 👋 Hi, my name is Bob Pham, a full-stack DotNet developer</div>
