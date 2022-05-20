@@ -14,27 +14,26 @@ const BackgroundAnimation = () => {
     return (
         <Particles id="tsparticles" options={
             {
-                fpsLimit: 120,
+                fpsLimit: 100,
                 interactivity: {
                     events: {
                         onClick: {
                             enable: false,
-                            mode: "push",
+                            mode: "bubble",
                         },
                         onHover: {
                             enable: false,
-                            mode: "repulse",
+                            mode: "bubble",
                         },
                         resize: true,
                     },
                     modes: {
-                        push: {
-                            quantity: 4,
-                        },
-                        repulse: {
+                        bubble: {
                             distance: 200,
-                            duration: 0.4,
-                        },
+                            size: 30,
+                            duration: 0.1,
+                            opacity: 0.3
+                          },
                     },
                 },
                 particles: {
@@ -45,7 +44,7 @@ const BackgroundAnimation = () => {
                         color: "#283252",
                         distance: 150,
                         enable: true,
-                        opacity: 0.3,
+                        opacity: 0.2,
                         width: 1,
                     },
                     collisions: {
@@ -58,7 +57,7 @@ const BackgroundAnimation = () => {
                             default: "bounce",
                         },
                         random: false,
-                        speed: 3,
+                        speed: 2,
                         straight: false,
                     },
                     number: {
@@ -69,7 +68,7 @@ const BackgroundAnimation = () => {
                         value: 50,
                     },
                     opacity: {
-                        value: 0.3,
+                        value: 0.2,
                     },
                     shape: {
                         type: "circle",
