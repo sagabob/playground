@@ -35,14 +35,14 @@
                 "link": "https://profile.id.com.au",
                 "positions": [
                     {
-                        "role": "Senior Software Developer",
+                        "role": "Senior Software Developer / Application Architect",
                         "time_at_role_start": "Dec 2020",
                         "time_at_role_end": "Present",
                         "time_at_role": null,
                         "location": "Melbourne, Australia",
                         "highlights": [
                             "Handle all technical work (design/architechture/develop/deploy) on all 3 business applications.",
-                            "Maintain the infrastructure on premise and cloud (Azure/Netlify/DigitalOcean).",
+                            "Maintain the infrastructure on premise and cloud (Azure, AWS & Netlify).",
                             "Do data import and analysis."
                         ]
                     }
@@ -173,13 +173,30 @@
                 ]
             },
             {
+                "name": "Typescript",
+                "metric": 90,
+                "experience": "5+ years of experience",
+                "skill_notes": [
+                    "Part of daily work for last 3+ years on React projects."                    
+                ]
+            },
+            {
                 "name": "C#",
-                "metric": 91,
+                "metric": 93,
                 "experience": "10+ years of experience",
                 "skill_notes": [
                     "Part of daily work for years.",
                     "Solid & advanced understanding of the language, hands-on experience in developing many applications.",
-                    "Currently work with DotNet Framework 4.6 & DotNet Core 3.1, will update to 5 soon."
+                    "Currently work with DotNet Framework 4.6, DotNet Core 3.1 & 5"
+                ]
+            },
+            {
+                "name": "SOLID / Design Patterns",
+                "metric": 93,
+                "experience": "8+ years of experience",
+                "skill_notes": [
+                    "Part of daily work for years.",
+                    "Use these principles and patterns often in developing Web API & microservices."                    
                 ]
             },
             {
@@ -219,12 +236,12 @@
         ],
         "frameworks": [
             {
-                "name": "ASP.NET MVC/Web API/EF",
+                "name": "ASP.NET MVC / Web API / EF",
                 "metric": 93,
-                "experience": "7+ years of experience",
+                "experience": "8+ years of experience",
                 "skill_notes": [
                     "Part of daily work for years.",
-                    "Solid & advanced understanding of the stack from aspects (design patterns/architechture/development/deployment)",
+                    "Solid & advanced knowledge of the stack from all aspects (design patterns/architechture/development/deployment)",
                     "Hands-on experience in using the stack to develop many business applications.",
                     "Currently work on DotNet Framework 4.6 & DotNet Core 3.1, will update to 5 soon."
                 ]
@@ -234,7 +251,8 @@
                 "metric": 88,
                 "experience": "5+ years of experience",
                 "skill_notes": [
-                    "Part of daily work."
+                    "Part of daily work.",
+                    "Create CI/CD to build and deploy software to premises and Azure."
                 ]
             },
             {
@@ -243,11 +261,11 @@
                 "experience": "5+ years of experience",
                 "skill_notes": [
                     "Part of daily work.",
-                    "Use most of common services such as MSSQL, CosmoDb, Virtual Machine, Fabric cluster."
+                    "Use most of common services such as MSSQL, CosmoDb, Virtual Machines, Fabric clusters."
                 ]
             },
             {
-                "name": "Docker/Kubernetes/Fabric",
+                "name": "Docker / Kubernetes / Fabric",
                 "metric": 85,
                 "experience": "3+ years of experience",
                 "skill_notes": [
@@ -263,7 +281,7 @@
                 "skill_notes": [
                     "Part of daily work for years.",
                     "Solid understanding, hands-on experience in implementing many applications.",
-                    "Also work closely with other React frameworks Gastby and Nextjs."
+                    "Also work closely with other React frameworks Redux and Gastby."
                 ]
             },
             {
@@ -275,7 +293,7 @@
                 ]
             },
             {
-                "name": "CosmoDb/Mongodb/FireStore (NoSQL)",
+                "name": "CosmoDb / Mongodb / FireStore (NoSQL)",
                 "metric": 86,
                 "experience": "5+ years of experience",
                 "skill_notes": [
