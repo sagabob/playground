@@ -372,23 +372,33 @@
             "status": "https://i.imgur.com/1RCTa6Z.png",
             "isUpdated": true,
             "note": "Attempt to create a close copy of Netflix.",
-            "project_image": "https://i.imgur.com/NlkbpfG.png",
+            "project_image": "https://i.imgur.com/GkH4bMq.png",
             "project_description": "Experiment Vite with Typscript & Emotion.",
             "tools": [
                 {
                     "tool_name": "Netlify",
-                    "tool_icon": "https://imgur.com/UIQ9Fu2",
+                    "tool_icon": "https://imgur.com/UIQ9Fu2.png",
                     "tool_link": "https://www.netlify.com/"
+                },
+                 {
+                    "tool_name": "Firebase",
+                    "tool_icon": "https://i.imgur.com/ISDpnGy.jpg",
+                    "tool_link": "https://firebase.google.com/"
                 },
                 {
                     "tool_name": "Vite",
-                    "tool_icon": "https://imgur.com/f7iAIKo",
+                    "tool_icon": "https://imgur.com/f7iAIKo.png",
                     "tool_link": "https://vitejs.dev/"
                 },
                 {
                     "tool_name": "React",
                     "tool_icon": "https://i.imgur.com/t3ENqJA.png",
                     "tool_link": "https://reactjs.org/"
+                },
+                {
+                    "tool_name": "Typescript",
+                    "tool_icon": "https://i.imgur.com/O8MYFMc.png",
+                    "tool_link": "https://www.typescriptlang.org//"
                 }
             ]
         },
