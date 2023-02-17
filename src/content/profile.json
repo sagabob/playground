@@ -364,6 +364,37 @@
         {
             "card_type": 0,
             "main_tool_icon": "https://assets.codepen.io/1104386/web_v1.png",
+            "source_link": "https://github.com/sagabob/ReactNetflixClone",
+            "app_link": "https://tdp-movie-demo.tdp-store.info/",
+            "title": "New Netflix Clone ",
+            "start_time": "Jan 2023",
+            "end_time": "Present",
+            "status": "https://i.imgur.com/1RCTa6Z.png",
+            "isUpdated": true,
+            "note": "Attempt to create a close copy of Netflix.",
+            "project_image": "https://i.imgur.com/NlkbpfG.png",
+            "project_description": "Experiment Vite with Typscript & Emotion.",
+            "tools": [
+                {
+                    "tool_name": "Netlify",
+                    "tool_icon": "https://imgur.com/UIQ9Fu2",
+                    "tool_link": "https://www.netlify.com/"
+                },
+                {
+                    "tool_name": "Vite",
+                    "tool_icon": "https://imgur.com/f7iAIKo",
+                    "tool_link": "https://vitejs.dev/"
+                },
+                {
+                    "tool_name": "React",
+                    "tool_icon": "https://i.imgur.com/t3ENqJA.png",
+                    "tool_link": "https://reactjs.org/"
+                }
+            ]
+        },
+        {
+            "card_type": 0,
+            "main_tool_icon": "https://assets.codepen.io/1104386/web_v1.png",
             "source_link": "https://github.com/sagabob/playground",
             "app_link": "https://www.tdp-techground.info/",
             "title": "Personal Blog",
