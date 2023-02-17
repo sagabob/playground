@@ -335,7 +335,7 @@
             "main_tool_icon": "https://assets.codepen.io/1104386/web_v1.png",
             "source_link": "https://github.com/sagabob/ReactNetflixApp",
             "app_link": "https://saga-netflix.web.app/",
-            "title": "Netflix Clone",
+            "title": "Netflix Clone (old)",
             "start_time": "Jan 2021",
             "end_time": "Present",
             "status": "https://i.imgur.com/1RCTa6Z.png",
@@ -358,6 +358,47 @@
                     "tool_name": "React",
                     "tool_icon": "https://i.imgur.com/t3ENqJA.png",
                     "tool_link": "https://reactjs.org/"
+                }
+            ]
+        },
+        {
+            "card_type": 0,
+            "main_tool_icon": "https://assets.codepen.io/1104386/web_v1.png",
+            "source_link": "https://github.com/sagabob/ReactNetflixClone",
+            "app_link": "https://tdp-movie-demo.tdp-store.info/",
+            "title": "New Netflix Clone ",
+            "start_time": "Jan 2023",
+            "end_time": "Present",
+            "status": "https://i.imgur.com/1RCTa6Z.png",
+            "isUpdated": true,
+            "note": "Attempt to create a close copy of Netflix.",
+            "project_image": "https://i.imgur.com/GkH4bMq.png",
+            "project_description": "Will create all pages (Home, Browse, SignIn & SignUp), also possibly attempt to create its UI components",
+            "tools": [
+                {
+                    "tool_name": "Netlify",
+                    "tool_icon": "https://imgur.com/UIQ9Fu2.png",
+                    "tool_link": "https://www.netlify.com/"
+                },
+                 {
+                    "tool_name": "Firebase",
+                    "tool_icon": "https://i.imgur.com/ISDpnGy.jpg",
+                    "tool_link": "https://firebase.google.com/"
+                },
+                {
+                    "tool_name": "Vite",
+                    "tool_icon": "https://imgur.com/f7iAIKo.png",
+                    "tool_link": "https://vitejs.dev/"
+                },
+                {
+                    "tool_name": "React",
+                    "tool_icon": "https://i.imgur.com/t3ENqJA.png",
+                    "tool_link": "https://reactjs.org/"
+                },
+                {
+                    "tool_name": "Typescript",
+                    "tool_icon": "https://i.imgur.com/O8MYFMc.png",
+                    "tool_link": "https://www.typescriptlang.org//"
                 }
             ]
         },
