@@ -373,7 +373,7 @@
             "isUpdated": true,
             "note": "Attempt to create a close copy of Netflix.",
             "project_image": "https://i.imgur.com/GkH4bMq.png",
-            "project_description": "Will create all pages (Home, Browse, SignIn & SignUp, also possibly attempt to create its UI components",
+            "project_description": "Will create all pages (Home, Browse, SignIn & SignUp), also possibly attempt to create its UI components",
             "tools": [
                 {
                     "tool_name": "Netlify",
