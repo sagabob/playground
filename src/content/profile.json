@@ -371,9 +371,9 @@
             "end_time": "Present",
             "status": "https://i.imgur.com/1RCTa6Z.png",
             "isUpdated": true,
-            "note": "Attempt to create a close copy of Netflix.",
+            "note": "A close copy of Netflix.",
             "project_image": "https://i.imgur.com/GkH4bMq.png",
-            "project_description": "Will create all pages (Home, Browse, SignIn & SignUp), also possibly attempt to create its UI components",
+            "project_description": "Attempt to create all fullly operational pages such as Home, Browse, SignIn & SignUp.",
             "tools": [
                 {
                     "tool_name": "Netlify",
