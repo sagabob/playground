@@ -330,38 +330,7 @@
         ]
     },
     "projects": [
-        {
-            "card_type": 1,
-            "main_tool_icon": "https://assets.codepen.io/1104386/web_v1.png",
-            "source_link": "https://github.com/sagabob/ReactNetflixApp",
-            "app_link": "https://saga-netflix.web.app/",
-            "title": "Netflix Clone (old)",
-            "start_time": "Jan 2021",
-            "end_time": "Present",
-            "status": "https://i.imgur.com/1RCTa6Z.png",
-            "isUpdated": false,
-            "note": "A simple clone of Netflix with Firestore authentation.",
-            "project_image": "https://i.imgur.com/21re4D4.png",
-            "project_description": "Attempt to re-create Netflix layout, but also add my point of view on the UI.",
-            "tools": [
-                {
-                    "tool_name": "Vercel",
-                    "tool_icon": "https://i.imgur.com/QjKMuT8.png",
-                    "tool_link": "https://vercel.com/"
-                },
-                {
-                    "tool_name": "Firebase",
-                    "tool_icon": "https://i.imgur.com/ISDpnGy.jpg",
-                    "tool_link": "https://firebase.google.com/"
-                },
-                {
-                    "tool_name": "React",
-                    "tool_icon": "https://i.imgur.com/t3ENqJA.png",
-                    "tool_link": "https://reactjs.org/"
-                }
-            ]
-        },
-        {
+         {
             "card_type": 0,
             "main_tool_icon": "https://assets.codepen.io/1104386/web_v1.png",
             "source_link": "https://github.com/sagabob/ReactNetflixClone",
@@ -402,6 +371,38 @@
                 }
             ]
         },
+        {
+            "card_type": 1,
+            "main_tool_icon": "https://assets.codepen.io/1104386/web_v1.png",
+            "source_link": "https://github.com/sagabob/ReactNetflixApp",
+            "app_link": "https://saga-netflix.web.app/",
+            "title": "Netflix Clone (old)",
+            "start_time": "Jan 2021",
+            "end_time": "Present",
+            "status": "https://i.imgur.com/1RCTa6Z.png",
+            "isUpdated": false,
+            "note": "A simple clone of Netflix.",
+            "project_image": "https://i.imgur.com/21re4D4.png",
+            "project_description": "An experiment to re-create Netflix layout, but also add my point of view on the UI.",
+            "tools": [
+                {
+                    "tool_name": "Vercel",
+                    "tool_icon": "https://i.imgur.com/QjKMuT8.png",
+                    "tool_link": "https://vercel.com/"
+                },
+                {
+                    "tool_name": "Firebase",
+                    "tool_icon": "https://i.imgur.com/ISDpnGy.jpg",
+                    "tool_link": "https://firebase.google.com/"
+                },
+                {
+                    "tool_name": "React",
+                    "tool_icon": "https://i.imgur.com/t3ENqJA.png",
+                    "tool_link": "https://reactjs.org/"
+                }
+            ]
+        },
+       
         {
             "card_type": 0,
             "main_tool_icon": "https://assets.codepen.io/1104386/web_v1.png",
