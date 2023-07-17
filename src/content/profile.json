@@ -77,7 +77,7 @@
                         "location": "Auckland, New Zealand",
                         "highlights": [
                             "Consult/support clients on a wide range of Hexagon geospatial software.",
-                            "Involve in the whole software development cycle, design/develop/test/deploy software on the client environments, then provide support.",
+                            "Involved in the whole software development cycle, design/develop/test/deploy software on the client environments, then provide support.",
                             "Provide technical advises & lead overseas team to do development.",
                             "Develop prototypes for presales, helping to convert prototypes to products."
                         ]
@@ -321,14 +321,14 @@
         ],
         "certificates": [
             {
-                "title": "Azure Fundamentals",
+                "title": "Microsoft Certified: Azure Administrator Associate",
                 "provider": "Microsoft",
                 "provider_link": "https://www.linkedin.com/company/microsoft/",
                 "icon": "https://i.imgur.com/EKG6g1Y.jpg",
-                "issued": "Issued Nov 2020",
-                "expires": "Expires Nov 2022",
-                "credential_Id": "Credential ID 14364134",
-                "badge": "https://www.credly.com/badges/c3d266c1-e7dd-4452-8ae8-c319188c7f92/public_url"
+                "issued": "Issued Jul 2023",
+                "expires": "Expires Jul 2024",
+                "credential_Id": "Credential ID C025C10B148326F5",
+                "badge": "https://learn.microsoft.com/en-gb/users/bobpham-2833/credentials/c025c10b148326f5"
             }
         ]
     },
