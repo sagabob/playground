@@ -1,555 +1,545 @@
 {
-    "photos": {
-        "portrait": "https://i.imgur.com/nVYBSmd.png",
-        "nationality": "https://i.imgur.com/P1PAg2o.png"
+  "photos": {
+    "portrait": "https://i.imgur.com/nVYBSmd.png",
+    "nationality": "https://i.imgur.com/P1PAg2o.png"
+  },
+  "introduction": [
+    "Hello everyone, I'm a full-stack developer with 12+ year experience, demonstrated history in software industry.",
+    "Passionate about new technologies, constantly keep myself updated and enjoy working in a team."
+  ],
+  "stat": {
+    "connection": "50+ Relations",
+    "projects": "12 Projects"
+  },
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/bob-pham-93937973/",
+    "github": "https://github.com/sagabob/",
+    "codepen": "https://codepen.io/b_pham/"
+  },
+  "experience": {
+    "technical_highlight": {
+      "summary": "With my years of experience, I can offer alot of benefits and flexibility:",
+      "highlights": [
+        "I can work in almost all technical positions from frontend to backend or devops engineer.",
+        "Solid understanding and hands-on experience in programming design patterns.",
+        "Hands-on experience in software architechture, particularly micro-services, containerized applications and distributed systems.",
+        "The last two years, I have also got into data analysis and machine learning."
+      ]
     },
-    "introduction": [
-        "Hello everyone, I'm a full-stack developer with 12+ year experience, demonstrated history in software industry.",
-        "Passionate about new technologies, constantly keep myself updated and enjoy working in a team."
-    ],
-    "stat": {
-        "connection": "50+ Relations",
-        "projects": "12 Projects"
-    },
-    "links": {
-        "linkedin": "https://www.linkedin.com/in/bob-pham-93937973/",
-        "github": "https://github.com/sagabob/",
-        "codepen": "https://codepen.io/b_pham/"
-    },
-    "experience": {
-        "technical_highlight": {
-            "summary": "With my years of experience, I can offer alot of benefits and flexibility:",
+    "workplaces": [
+      {
+        "company": ".id (informed decisions)",
+        "work_type": "Full-time",
+        "total_time": "1 yrs 3 mos",
+        "image": "https://assets.codepen.io/1104386/.id.jpg",
+        "link": "https://profile.id.com.au",
+        "positions": [
+          {
+            "role": "Senior Software Developer / Application Architect",
+            "time_at_role_start": "Dec 2020",
+            "time_at_role_end": "Present",
+            "time_at_role": null,
+            "location": "Melbourne, Australia",
             "highlights": [
-                "I can work in almost all technical positions from frontend to backend or devops engineer.",
-                "Solid understanding and hands-on experience in programming design patterns.",
-                "Hands-on experience in software architechture, particularly micro-services, containerized applications and distributed systems.",
-                "The last two years, I have also got into data analysis and machine learning."
+              "Handle all technical work (design/architechture/develop/deploy) on all 3 business applications.",
+              "Maintain the infrastructure on premise and cloud (Azure, AWS & Netlify).",
+              "Do data import and analysis.",
+              "Architect & design applications to move from monolithic to microservices."
             ]
-        },
-        "workplaces": [
-            {
-                "company": ".id (informed decisions)",
-                "work_type": "Full-time",
-                "total_time": "1 yrs 3 mos",
-                "image": "https://assets.codepen.io/1104386/.id.jpg",
-                "link": "https://profile.id.com.au",
-                "positions": [
-                    {
-                        "role": "Senior Software Developer / Application Architect",
-                        "time_at_role_start": "Dec 2020",
-                        "time_at_role_end": "Present",
-                        "time_at_role": null,
-                        "location": "Melbourne, Australia",
-                        "highlights": [
-                            "Handle all technical work (design/architechture/develop/deploy) on all 3 business applications.",
-                            "Maintain the infrastructure on premise and cloud (Azure, AWS & Netlify).",
-                            "Do data import and analysis.",
-                            "Architect & design applications to move from monolithic to microservices."
-                        ]
-                    }
-                ]
-            },
-            {
-                "company": "Hexagon Safety & Infrastructure",
-                "work_type": "Full-time",
-                "total_time": "7 yrs 5 mos",
-                "image": "https://assets.codepen.io/1104386/hexagon.jpg",
-                "link": "https://www.hexagonsafetyinfrastructure.com/",
-                "positions": [
-                    {
-                        "role": "Senior Software Developer / Release Manager",
-                        "time_at_role_start": "Jan 2019",
-                        "time_at_role_end": "Nov 2020",
-                        "time_at_role": "1 yr 11 mos",
-                        "location": "Melbourne, Australia",
-                        "highlights": [
-                            "Focus into for public safety side of Hexagon business, develop and support its enterprise desktop applications & mobile apps.",
-                            "Manage software release management process.",
-                            "Lead teams in development, coordinate with testers, implementers, and release managers.",
-                            "Search and advise new technologies."
-                        ]
-                    },
-                    {
-                        "role": "GIS Analyst Consultant / Senior Developer (Geospatial Dept.)",
-                        "time_at_role_start": "Jul 2013",
-                        "time_at_role_end": "Dec 2018",
-                        "time_at_role": "5 yrs 6 mos",
-                        "location": "Auckland, New Zealand",
-                        "highlights": [
-                            "Consult/support clients on a wide range of Hexagon geospatial software.",
-                            "Involved in the whole software development cycle, design/develop/test/deploy software on the client environments, then provide support.",
-                            "Provide technical advises & lead overseas team to do development.",
-                            "Develop prototypes for presales, helping to convert prototypes to products."
-                        ]
-                    }
-                ]
-            },
-            {
-                "company": "Cortell",
-                "work_type": "Full-time",
-                "total_time": "1 yrs 6 mos",
-                "image": "https://assets.codepen.io/1104386/company.png",
-                "link": "",
-                "positions": [
-                    {
-                        "role": "Software Developer",
-                        "time_at_role_start": "Jan 2012",
-                        "time_at_role_end": "Jul 2013",
-                        "time_at_role": null,
-                        "location": "Auckland, New Zealand",
-                        "highlights": [
-                            "Develop/extend features for the company's accounting software.",
-                            "Perform integration testing activities.",
-                            "Provide technical support to clients.",
-                            "Perform data migration on the Cortell software for clients."
-                        ]
-                    }
-                ]
-            },
-            {
-                "company": "Vina Web",
-                "work_type": "Full-time",
-                "total_time": "4 yrs",
-                "image": "https://assets.codepen.io/1104386/company.png",
-                "link": "",
-                "positions": [
-                    {
-                        "role": "Web Builder",
-                        "time_at_role_start": "Jan 2003",
-                        "time_at_role_end": "Dec 2006",
-                        "time_at_role": null,
-                        "location": "Ho Chi Minh, Viet Nam",
-                        "highlights": [
-                            "Create/update web sites.",
-                            "Perform integration testing activities.",
-                            "Provide technical support to clients."
-                        ]
-                    }
-                ]
-            }
+          }
         ]
-    },
-    "education": [
-        {
-            "provider": "The University of Waikato",
-            "provider_link": "https://www.waikato.ac.nz/",
-            "icon_link": "https://i.imgur.com/DZhdINc.jpg",
-            "title": "Master of Computer Scence, Data Visualization",
-            "start": "2011",
-            "end": "2012",
-            "notes": [
-                "Grade: Distinction.",
-                "Research in Graphs and Data Visualization, the topic is to use forced-directed graphs to visualize how to learn English vocabularies and their collocations."
+      },
+      {
+        "company": "Hexagon Safety & Infrastructure",
+        "work_type": "Full-time",
+        "total_time": "7 yrs 5 mos",
+        "image": "https://assets.codepen.io/1104386/hexagon.jpg",
+        "link": "https://www.hexagonsafetyinfrastructure.com/",
+        "positions": [
+          {
+            "role": "Senior Software Developer / Release Manager",
+            "time_at_role_start": "Jan 2019",
+            "time_at_role_end": "Nov 2020",
+            "time_at_role": "1 yr 11 mos",
+            "location": "Melbourne, Australia",
+            "highlights": [
+              "Focus into for public safety side of Hexagon business, develop and support its enterprise desktop applications & mobile apps.",
+              "Manage software release management process.",
+              "Lead teams in development, coordinate with testers, implementers, and release managers.",
+              "Search and advise new technologies."
             ]
-        },
-        {
-            "provider": "The University of Waikato",
-            "provider_link": "https://www.waikato.ac.nz/",
-            "icon_link": "https://i.imgur.com/DZhdINc.jpg",
-            "title": "Bachelor (Hons) of Computing and Mathematics",
-            "start": "2007",
-            "end": "2010",
-            "notes": [
-                "Activities and societies: Golden Key International Society member.",
-                "Specialize in Machine Learning & Data Mining."
+          },
+          {
+            "role": "GIS Analyst Consultant / Senior Developer (Geospatial Dept.)",
+            "time_at_role_start": "Jul 2013",
+            "time_at_role_end": "Dec 2018",
+            "time_at_role": "5 yrs 6 mos",
+            "location": "Auckland, New Zealand",
+            "highlights": [
+              "Consult/support clients on a wide range of Hexagon geospatial software.",
+              "Involved in the whole software development cycle, design/develop/test/deploy software on the client environments, then provide support.",
+              "Provide technical advises & lead overseas team to do development.",
+              "Develop prototypes for presales, helping to convert prototypes to products."
             ]
-        },
-        {
-            "provider": "Ho Chi Minh University of Technology (HCMUT)",
-            "provider_link": "http://www.hcmut.edu.vn/en",
-            "icon_link": "https://i.imgur.com/15CW3U7.jpg",
-            "title": "Bachelor's degree , Electrical and Electronics Engineering",
-            "start": "2001",
-            "end": "2003",
-            "notes": []
-        }
-    ],
-    "skills": {
-        "skill_list": [
-            {
-                "name": "JavaScript",
-                "metric": 93,
-                "experience": "10+ years of experience",
-                "skill_notes": [
-                    "Part of daily work for last 5+ years.",
-                    "Have advanced knowledge of the language."
-                ]
-            },
-            {
-                "name": "Typescript",
-                "metric": 90,
-                "experience": "5+ years of experience",
-                "skill_notes": [
-                    "Part of daily work for last 3+ years on React projects."                    
-                ]
-            },
-            {
-                "name": "C#",
-                "metric": 93,
-                "experience": "10+ years of experience",
-                "skill_notes": [
-                    "Part of daily work for years.",
-                    "Solid & advanced understanding of the language, hands-on experience in developing many applications.",
-                    "Currently work with DotNet Framework 4.6, DotNet Core 3.1 & 5"
-                ]
-            },
-            {
-                "name": "SOLID / Design Patterns",
-                "metric": 93,
-                "experience": "8+ years of experience",
-                "skill_notes": [
-                    "Part of daily work for years.",
-                    "Use these principles and patterns often in developing Web API & microservices."                    
-                ]
-            },
-            {
-                "name": "SQL",
-                "metric": 85,
-                "experience": "10+ years of experience",
-                "skill_notes": [
-                    "Part of daily work for years, primarily use in MSSQL."
-                ]
-            },
-            {
-                "name": "PowerShell",
-                "metric": 81,
-                "experience": "5+ years of experience",
-                "skill_notes": [
-                    "Used to be a part of daily work (2 years ago) for doing deployment."
-                ]
-            },
-            {
-                "name": "Python",
-                "metric": 85,
-                "experience": "3+ years of experience",
-                "skill_notes": [
-                    "Part of daily work for the last 2+ years.",
-                    "Work on data analysis, wrangling, and machine learning."
-                ]
-            },
-            {
-                "name": "HTML5/CSS3",
-                "metric": 85,
-                "experience": "7+ years of experience",
-                "skill_notes": [
-                    "Part of daily work for years.",
-                    "Solid understanding of the languages, hands-on experience in developing many applications."
-                ]
-            }
-        ],
-        "frameworks": [
-            {
-                "name": "ASP.NET MVC / Web API / EF",
-                "metric": 93,
-                "experience": "8+ years of experience",
-                "skill_notes": [
-                    "Part of daily work for years.",
-                    "Solid & advanced knowledge of the stack from all aspects (design patterns/architechture/development/deployment)",
-                    "Hands-on experience in using the stack to develop many business applications.",
-                    "Currently work on DotNet Framework 4.6 & DotNet Core 3.1, will update to 5 soon."
-                ]
-            },
-            {
-                "name": "Azure DevOps",
-                "metric": 88,
-                "experience": "5+ years of experience",
-                "skill_notes": [
-                    "Part of daily work.",
-                    "Create CI/CD to build and deploy software to premises and Azure."
-                ]
-            },
-            {
-                "name": "Azure Cloud",
-                "metric": 87,
-                "experience": "5+ years of experience",
-                "skill_notes": [
-                    "Part of daily work.",
-                    "Use most of common services such as MSSQL, CosmoDb, Virtual Machines, Fabric clusters."
-                ]
-            },
-            {
-                "name": "Docker / Kubernetes / Fabric",
-                "metric": 85,
-                "experience": "3+ years of experience",
-                "skill_notes": [
-                    "Fabric (Microsoft's container orchestrator) is part of daily work for recent 3+ years.",
-                    "Solid & advanced understanding of the Docker, hands-on experience in using it to developing many business applications",
-                    "Currently learning Kubernetes, try to migrate from Fabric to K8s."
-                ]
-            },
-            {
-                "name": "React",
-                "metric": 90,
-                "experience": "5+ years of experience",
-                "skill_notes": [
-                    "Part of daily work for years.",
-                    "Solid understanding, hands-on experience in implementing many applications.",
-                    "Also work closely with other React frameworks Redux and Gastby."
-                ]
-            },
-            {
-                "name": "Nodejs",
-                "metric": 81,
-                "experience": "5+ years of experience",
-                "skill_notes": [
-                    "Solid understanding of the tool, hands-on experience in using the Nodejs in developing many Nodejs related applications."
-                ]
-            },
-            {
-                "name": "CosmoDb / Mongodb / FireStore (NoSQL)",
-                "metric": 86,
-                "experience": "5+ years of experience",
-                "skill_notes": [
-                    "Part of daily work for recent 3+ years.",
-                    "Solid & advanced understanding of the tools, hands-on experience in using the tools to developing many business applications (use GraphQL connection)"
-                ]
-            }
-        ],
-        "tools": [
-            {
-                "name": "Visual Studio",
-                "metric": 91,
-                "icon": "https://i.imgur.com/VzbhI5w.jpg",
-                "experience": "Advanced level"
-            },
-            {
-                "name": "Hexagon Geospatial Product Suite",
-                "metric": 88,
-                "icon": "https://i.imgur.com/LOeIgKA.jpg",
-                "experience": "Advanced Level"
-            }
-        ],
-        "certificates": [
-            {
-                "title": "Microsoft Certified: Azure Administrator Associate",
-                "provider": "Microsoft",
-                "provider_link": "https://www.linkedin.com/company/microsoft/",
-                "icon": "https://i.imgur.com/EKG6g1Y.jpg",
-                "issued": "Issued Jul 2023",
-                "expires": "Expires Jul 2024",
-                "credential_Id": "Credential ID C025C10B148326F5",
-                "badge": "https://learn.microsoft.com/en-gb/users/bobpham-2833/credentials/c025c10b148326f5"
-            }
+          }
         ]
-    },
-    "projects": [
-         {
-            "card_type": 0,
-            "main_tool_icon": "https://assets.codepen.io/1104386/web_v1.png",
-            "source_link": "https://github.com/sagabob/ReactNetflixClone",
-            "app_link": "https://tdp-movie-demo.tdp-store.info/",
-            "title": "New Netflix Clone ",
-            "start_time": "Jan 2023",
-            "end_time": "Present",
-            "status": "https://i.imgur.com/1RCTa6Z.png",
-            "isUpdated": true,
-            "note": "A close copy of Netflix.",
-            "project_image": "https://i.imgur.com/GkH4bMq.png",
-            "project_description": "Attempt to create all fullly operational pages such as Home, Browse, SignIn & SignUp.",
-            "tools": [
-                {
-                    "tool_name": "Netlify",
-                    "tool_icon": "https://imgur.com/UIQ9Fu2.png",
-                    "tool_link": "https://www.netlify.com/"
-                },
-                 {
-                    "tool_name": "Firebase",
-                    "tool_icon": "https://i.imgur.com/ISDpnGy.jpg",
-                    "tool_link": "https://firebase.google.com/"
-                },
-                {
-                    "tool_name": "Vite",
-                    "tool_icon": "https://imgur.com/f7iAIKo.png",
-                    "tool_link": "https://vitejs.dev/"
-                },
-                {
-                    "tool_name": "React",
-                    "tool_icon": "https://i.imgur.com/t3ENqJA.png",
-                    "tool_link": "https://reactjs.org/"
-                },
-                {
-                    "tool_name": "Typescript",
-                    "tool_icon": "https://i.imgur.com/O8MYFMc.png",
-                    "tool_link": "https://www.typescriptlang.org//"
-                }
+      },
+      {
+        "company": "Cortell",
+        "work_type": "Full-time",
+        "total_time": "1 yrs 6 mos",
+        "image": "https://assets.codepen.io/1104386/company.png",
+        "link": "",
+        "positions": [
+          {
+            "role": "Software Developer",
+            "time_at_role_start": "Jan 2012",
+            "time_at_role_end": "Jul 2013",
+            "time_at_role": null,
+            "location": "Auckland, New Zealand",
+            "highlights": [
+              "Develop/extend features for the company's accounting software.",
+              "Perform integration testing activities.",
+              "Provide technical support to clients.",
+              "Perform data migration on the Cortell software for clients."
             ]
-        },
-        {
-            "card_type": 1,
-            "main_tool_icon": "https://assets.codepen.io/1104386/web_v1.png",
-            "source_link": "https://github.com/sagabob/ReactNetflixApp",
-            "app_link": "https://saga-netflix.web.app/",
-            "title": "Netflix Clone (old)",
-            "start_time": "Jan 2021",
-            "end_time": "Present",
-            "status": "https://i.imgur.com/1RCTa6Z.png",
-            "isUpdated": false,
-            "note": "A simple clone of Netflix.",
-            "project_image": "https://i.imgur.com/21re4D4.png",
-            "project_description": "An experiment to re-create Netflix layout, but also add my point of view on the UI.",
-            "tools": [
-                {
-                    "tool_name": "Vercel",
-                    "tool_icon": "https://i.imgur.com/QjKMuT8.png",
-                    "tool_link": "https://vercel.com/"
-                },
-                {
-                    "tool_name": "Firebase",
-                    "tool_icon": "https://i.imgur.com/ISDpnGy.jpg",
-                    "tool_link": "https://firebase.google.com/"
-                },
-                {
-                    "tool_name": "React",
-                    "tool_icon": "https://i.imgur.com/t3ENqJA.png",
-                    "tool_link": "https://reactjs.org/"
-                }
-            ]
-        },
-       
-        {
-            "card_type": 0,
-            "main_tool_icon": "https://assets.codepen.io/1104386/web_v1.png",
-            "source_link": "https://github.com/sagabob/playground",
-            "app_link": "https://blog.tdp-store.info/",
-            "title": "Personal Blog",
-            "start_time": "Jan 2022",
-            "end_time": "Present",
-            "status": "https://i.imgur.com/1RCTa6Z.png",
-            "isUpdated": true,
-            "note": "Simple react web app to show my resume & projects.",
-            "project_image": "https://i.imgur.com/NlkbpfG.png",
-            "project_description": "Experiment Bulma css and mix with styled-component.",
-            "tools": [
-                {
-                    "tool_name": "Vercel",
-                    "tool_icon": "https://i.imgur.com/QjKMuT8.png",
-                    "tool_link": "https://vercel.com/"
-                },
-                {
-                    "tool_name": "Bulma.io",
-                    "tool_icon": "https://i.imgur.com/qKYfn1V.png",
-                    "tool_link": "https://bulma.io/"
-                },
-                {
-                    "tool_name": "React",
-                    "tool_icon": "https://i.imgur.com/t3ENqJA.png",
-                    "tool_link": "https://reactjs.org/"
-                }
-            ]
-        },
-        {
-            "card_type": 0,
-            "main_tool_icon": "https://i.imgur.com/KKSMaBA.png",
-            "source_link": "https://github.com/sagabob/ThdpGisAppApi",
-            "app_link": "https://giswebapi.tdp-store.info/index.html",
-            "title": "Geospatial search service",
-            "start_time": "Sep 2020",
-            "end_time": "current",
-            "status": "https://i.imgur.com/1RCTa6Z.png",
-            "isUpdated": true,
-            "note": "A WebApi provides Restful services on searching geospatial features.",
-            "project_image": "https://i.imgur.com/8f2hx4q.png",
-            "project_description": "A dotnet-core WebApi provides Restful services on searching geospatial features such as interested points or properties.",
-            "tools": [
-                {
-                    "tool_name": "CSharp",
-                    "tool_icon": "https://i.imgur.com/s1xuCPI.png",
-                    "tool_link": "https://docs.microsoft.com/en-us/dotnet/csharp/"
-                },
-                {
-                    "tool_name": "MongoDb",
-                    "tool_icon": "https://i.imgur.com/oAiIi6v.png",
-                    "tool_link": "https://www.mongodb.com/"
-                }
-            ]
-        },
-        {
-            "card_type": 0,
-            "main_tool_icon": "https://assets.codepen.io/1104386/web_v1.png",
-            "source_link": "https://github.com/sagabob/ThdpGisWebApp",
-            "app_link": "https://giswebapp.tdp-store.info/",
-            "title": "Geospatial Web App",
-            "start_time": "May 2022",
-            "end_time": "current",
-            "status": "https://i.imgur.com/1RCTa6Z.png",
-            "isUpdated": true,
-            "note": "A simple website to search places in Christchurch, New Zealand.",
-            "project_image": "https://i.imgur.com/XqBJpo6.png",
-            "project_description": "A simple website to search places in Christchurch, New Zealand (working in progress). We can search points of interest such as parks, gardens, street addresses or houses.",
-            "tools": [
-                {
-                    "tool_name": "Vercel",
-                    "tool_icon": "https://i.imgur.com/QjKMuT8.png",
-                    "tool_link": "https://vercel.com/"
-                },
-                {
-                    "tool_name": "Tailwindcss",
-                    "tool_icon": "https://i.imgur.com/e12j4ez.jpg",
-                    "tool_link": "https://tailwindcss.com/"
-                },
-                {
-                    "tool_name": "ReactMapGLJS",
-                    "tool_icon": "https://i.imgur.com/TbZ6trh.png",
-                    "tool_link": "https://visgl.github.io/react-map-gl/"
-                },
-                {
-                    "tool_name": "React",
-                    "tool_icon": "https://i.imgur.com/t3ENqJA.png",
-                    "tool_link": "https://reactjs.org/"
-                }
-            ]
-        },
-        {
-            "card_type": 0,
-            "main_tool_icon": "https://i.imgur.com/KKSMaBA.png",
-            "source_link": "https://github.com/sagabob/PageTestAutomation",
-            "app_link": null,
-            "title": "UI Automation Testing",
-            "start_time": "March 2022",
-            "end_time": "March 2022",
-            "status": "https://i.imgur.com/1RCTa6Z.png",
-            "isUpdated": true,
-            "note": "A simple example of automation UI testing.",
-            "project_image": "https://i.imgur.com/jMO8GBo.png",
-            "project_description": "Specflow + Selenium WebDriver are using. The goal is to design a complete test library for the given site.",
-            "tools": [
-                {
-                    "tool_name": "CSharp",
-                    "tool_icon": "https://i.imgur.com/s1xuCPI.png",
-                    "tool_link": "https://docs.microsoft.com/en-us/dotnet/csharp/"
-                },
-                {
-                    "tool_name": "Specflow",
-                    "tool_icon": "https://i.imgur.com/0e0pP90.png",
-                    "tool_link": "https://specflow.org/"
-                }
-            ]
-        },
-        {
-            "card_type": 2,
-            "main_tool_icon": "https://assets.codepen.io/1104386/web_v1.png",
-            "source_link": "https://github.com/sagabob/GeoSpatialDataTypeConverter",
-            "app_link": null,
-            "title": "Geospatial converting service",
-            "start_time": "Sep 2020",
-            "end_time": "Nov 2020",
-            "status": "https://i.imgur.com/1RCTa6Z.png",
-            "isUpdated": true,
-            "note": "A simple geospatial converting service.",
-            "project_image": null,
-            "project_description": "Converts uploaded geojson file into gml, kml (Google Earth format) and another way around.",
-            "tools": [
-                {
-                    "tool_name": "Firebase",
-                    "tool_icon": "https://i.imgur.com/04KKBRl.png",
-                    "tool_link": "https://gdal.org/"
-                },
-                {
-                    "tool_name": "CSharp",
-                    "tool_icon": "https://i.imgur.com/s1xuCPI.png",
-                    "tool_link": "https://docs.microsoft.com/en-us/dotnet/csharp/"
-                }
-            ]
-        }
+          }
+        ]
+      },
+      {
+        "company": "Vina Web",
+        "work_type": "Full-time",
+        "total_time": "4 yrs",
+        "image": "https://assets.codepen.io/1104386/company.png",
+        "link": "",
+        "positions": [
+          {
+            "role": "Web Builder",
+            "time_at_role_start": "Jan 2003",
+            "time_at_role_end": "Dec 2006",
+            "time_at_role": null,
+            "location": "Ho Chi Minh, Viet Nam",
+            "highlights": ["Create/update web sites.", "Perform integration testing activities.", "Provide technical support to clients."]
+          }
+        ]
+      }
     ]
+  },
+  "education": [
+    {
+      "provider": "The University of Waikato",
+      "provider_link": "https://www.waikato.ac.nz/",
+      "icon_link": "https://i.imgur.com/DZhdINc.jpg",
+      "title": "Master of Computer Scence, Data Visualization",
+      "start": "2011",
+      "end": "2012",
+      "notes": ["Grade: Distinction.", "Research in Graphs and Data Visualization, the topic is to use forced-directed graphs to visualize how to learn English vocabularies and their collocations."]
+    },
+    {
+      "provider": "The University of Waikato",
+      "provider_link": "https://www.waikato.ac.nz/",
+      "icon_link": "https://i.imgur.com/DZhdINc.jpg",
+      "title": "Bachelor (Hons) of Computing and Mathematics",
+      "start": "2007",
+      "end": "2010",
+      "notes": ["Activities and societies: Golden Key International Society member.", "Specialize in Machine Learning & Data Mining."]
+    },
+    {
+      "provider": "Ho Chi Minh University of Technology (HCMUT)",
+      "provider_link": "http://www.hcmut.edu.vn/en",
+      "icon_link": "https://i.imgur.com/15CW3U7.jpg",
+      "title": "Bachelor's degree , Electrical and Electronics Engineering",
+      "start": "2001",
+      "end": "2003",
+      "notes": []
+    }
+  ],
+  "skills": {
+    "skill_list": [
+      {
+        "name": "JavaScript",
+        "metric": 93,
+        "experience": "10+ years of experience",
+        "skill_notes": ["Part of daily work for last 5+ years.", "Have advanced knowledge of the language."]
+      },
+      {
+        "name": "Typescript",
+        "metric": 90,
+        "experience": "5+ years of experience",
+        "skill_notes": ["Part of daily work for last 3+ years on React projects."]
+      },
+      {
+        "name": "C#",
+        "metric": 93,
+        "experience": "10+ years of experience",
+        "skill_notes": [
+          "Part of daily work for years.",
+          "Solid & advanced understanding of the language, hands-on experience in developing many applications.",
+          "Currently work with DotNet Framework 4.6, DotNet Core 3.1 & 5"
+        ]
+      },
+      {
+        "name": "SOLID / Design Patterns",
+        "metric": 93,
+        "experience": "8+ years of experience",
+        "skill_notes": ["Part of daily work for years.", "Use these principles and patterns often in developing Web API & microservices."]
+      },
+      {
+        "name": "SQL",
+        "metric": 85,
+        "experience": "10+ years of experience",
+        "skill_notes": ["Part of daily work for years, primarily use in MSSQL."]
+      },
+      {
+        "name": "PowerShell",
+        "metric": 81,
+        "experience": "5+ years of experience",
+        "skill_notes": ["Used to be a part of daily work (2 years ago) for doing deployment."]
+      },
+      {
+        "name": "Python",
+        "metric": 85,
+        "experience": "3+ years of experience",
+        "skill_notes": ["Part of daily work for the last 2+ years.", "Work on data analysis, wrangling, and machine learning."]
+      },
+      {
+        "name": "HTML5/CSS3",
+        "metric": 85,
+        "experience": "7+ years of experience",
+        "skill_notes": ["Part of daily work for years.", "Solid understanding of the languages, hands-on experience in developing many applications."]
+      }
+    ],
+    "frameworks": [
+      {
+        "name": "ASP.NET MVC / Web API / EF",
+        "metric": 93,
+        "experience": "8+ years of experience",
+        "skill_notes": [
+          "Part of daily work for years.",
+          "Solid & advanced knowledge of the stack from all aspects (design patterns/architechture/development/deployment)",
+          "Hands-on experience in using the stack to develop many business applications.",
+          "Currently work on DotNet Framework 4.6 & DotNet Core 3.1, will update to 5 soon."
+        ]
+      },
+      {
+        "name": "Azure DevOps",
+        "metric": 88,
+        "experience": "5+ years of experience",
+        "skill_notes": ["Part of daily work.", "Create CI/CD to build and deploy software to premises and Azure."]
+      },
+      {
+        "name": "Azure Cloud",
+        "metric": 87,
+        "experience": "5+ years of experience",
+        "skill_notes": ["Part of daily work.", "Use most of common services such as MSSQL, CosmoDb, Virtual Machines, Fabric clusters."]
+      },
+      {
+        "name": "Docker / Kubernetes / Fabric",
+        "metric": 85,
+        "experience": "3+ years of experience",
+        "skill_notes": [
+          "Fabric (Microsoft's container orchestrator) is part of daily work for recent 3+ years.",
+          "Solid & advanced understanding of the Docker, hands-on experience in using it to developing many business applications",
+          "Currently learning Kubernetes, try to migrate from Fabric to K8s."
+        ]
+      },
+      {
+        "name": "React",
+        "metric": 90,
+        "experience": "5+ years of experience",
+        "skill_notes": [
+          "Part of daily work for years.",
+          "Solid understanding, hands-on experience in implementing many applications.",
+          "Also work closely with other React frameworks Redux and Gastby."
+        ]
+      },
+      {
+        "name": "Nodejs",
+        "metric": 81,
+        "experience": "5+ years of experience",
+        "skill_notes": ["Solid understanding of the tool, hands-on experience in using the Nodejs in developing many Nodejs related applications."]
+      },
+      {
+        "name": "CosmoDb / Mongodb / FireStore (NoSQL)",
+        "metric": 86,
+        "experience": "5+ years of experience",
+        "skill_notes": [
+          "Part of daily work for recent 3+ years.",
+          "Solid & advanced understanding of the tools, hands-on experience in using the tools to developing many business applications (use GraphQL connection)"
+        ]
+      }
+    ],
+    "tools": [
+      {
+        "name": "Visual Studio",
+        "metric": 91,
+        "icon": "https://i.imgur.com/VzbhI5w.jpg",
+        "experience": "Advanced level"
+      },
+      {
+        "name": "Hexagon Geospatial Product Suite",
+        "metric": 88,
+        "icon": "https://i.imgur.com/LOeIgKA.jpg",
+        "experience": "Advanced Level"
+      }
+    ],
+    "certificates": [
+      {
+        "title": "Microsoft Certified: Azure Administrator Associate",
+        "provider": "Microsoft",
+        "provider_link": "https://www.linkedin.com/company/microsoft/",
+        "icon": "https://i.imgur.com/EKG6g1Y.jpg",
+        "issued": "Issued Jul 2023",
+        "expires": "Expires Jul 2024",
+        "credential_Id": "Credential ID C025C10B148326F5",
+        "badge": "https://learn.microsoft.com/en-gb/users/bobpham-2833/credentials/c025c10b148326f5"
+      }
+    ]
+  },
+  "projects": [
+    {
+      "card_type": 0,
+      "main_tool_icon": "https://assets.codepen.io/1104386/web_v1.png",
+      "source_link": "https://github.com/sagabob/ExportingService",
+      "app_link": null,
+      "title": "Exporting Service (Html to Pdf/Word)",
+      "start_time": "Jul 2023",
+      "end_time": "Present",
+      "status": "https://i.imgur.com/1RCTa6Z.png",
+      "isUpdated": true,
+      "note": "A simple event driven architecture system exporting Html pages to Pdf/Word.",
+      "project_image": "https://i.imgur.com/PbBPHAe.png",
+      "project_description": "Users just send a request containing a list of URLs, target format (Pdf/Word) and email address. Its components will received the request, converting Html pages to the target format, and then email to the user with exported file attached.",
+      "tools": [
+        {
+          "tool_name": "DotNet Core 7",
+          "tool_icon": "https://i.imgur.com/s1xuCPI.png",
+          "tool_link": "https://docs.microsoft.com/en-us/dotnet/csharp/"
+        },
+        {
+          "tool_name": "Azure",
+          "tool_icon": "https://i.imgur.com/q6It0lX.png",
+          "tool_link": "https://azure.microsoft.com/"
+        }
+      ]
+    },
+    {
+      "card_type": 0,
+      "main_tool_icon": "https://assets.codepen.io/1104386/web_v1.png",
+      "source_link": "https://github.com/sagabob/ReactNetflixClone",
+      "app_link": "https://tdp-movie-demo.tdp-store.info/",
+      "title": "New Netflix Clone",
+      "start_time": "Jan 2023",
+      "end_time": "Present",
+      "status": "https://i.imgur.com/1RCTa6Z.png",
+      "isUpdated": true,
+      "note": "A close copy of Netflix.",
+      "project_image": "https://i.imgur.com/GkH4bMq.png",
+      "project_description": "Attempt to create all fullly operational pages such as Home, Browse, SignIn & SignUp.",
+      "tools": [
+        {
+          "tool_name": "Netlify",
+          "tool_icon": "https://imgur.com/UIQ9Fu2.png",
+          "tool_link": "https://www.netlify.com/"
+        },
+        {
+          "tool_name": "Firebase",
+          "tool_icon": "https://i.imgur.com/ISDpnGy.jpg",
+          "tool_link": "https://firebase.google.com/"
+        },
+        {
+          "tool_name": "Vite",
+          "tool_icon": "https://imgur.com/f7iAIKo.png",
+          "tool_link": "https://vitejs.dev/"
+        },
+        {
+          "tool_name": "React",
+          "tool_icon": "https://i.imgur.com/t3ENqJA.png",
+          "tool_link": "https://reactjs.org/"
+        },
+        {
+          "tool_name": "Typescript",
+          "tool_icon": "https://i.imgur.com/O8MYFMc.png",
+          "tool_link": "https://www.typescriptlang.org//"
+        }
+      ]
+    },
+    {
+      "card_type": 1,
+      "main_tool_icon": "https://assets.codepen.io/1104386/web_v1.png",
+      "source_link": "https://github.com/sagabob/ReactNetflixApp",
+      "app_link": "https://saga-netflix.web.app/",
+      "title": "Netflix Clone (old)",
+      "start_time": "Jan 2021",
+      "end_time": "Present",
+      "status": "https://i.imgur.com/1RCTa6Z.png",
+      "isUpdated": false,
+      "note": "A simple clone of Netflix.",
+      "project_image": "https://i.imgur.com/21re4D4.png",
+      "project_description": "An experiment to re-create Netflix layout, but also add my point of view on the UI.",
+      "tools": [
+        {
+          "tool_name": "Vercel",
+          "tool_icon": "https://i.imgur.com/QjKMuT8.png",
+          "tool_link": "https://vercel.com/"
+        },
+        {
+          "tool_name": "Firebase",
+          "tool_icon": "https://i.imgur.com/ISDpnGy.jpg",
+          "tool_link": "https://firebase.google.com/"
+        },
+        {
+          "tool_name": "React",
+          "tool_icon": "https://i.imgur.com/t3ENqJA.png",
+          "tool_link": "https://reactjs.org/"
+        }
+      ]
+    },
+
+    {
+      "card_type": 0,
+      "main_tool_icon": "https://assets.codepen.io/1104386/web_v1.png",
+      "source_link": "https://github.com/sagabob/playground",
+      "app_link": "https://blog.tdp-store.info/",
+      "title": "Personal Blog",
+      "start_time": "Jan 2022",
+      "end_time": "Present",
+      "status": "https://i.imgur.com/1RCTa6Z.png",
+      "isUpdated": true,
+      "note": "Simple react web app to show my resume & projects.",
+      "project_image": "https://i.imgur.com/NlkbpfG.png",
+      "project_description": "Experiment Bulma css and mix with styled-component.",
+      "tools": [
+        {
+          "tool_name": "Vercel",
+          "tool_icon": "https://i.imgur.com/QjKMuT8.png",
+          "tool_link": "https://vercel.com/"
+        },
+        {
+          "tool_name": "Bulma.io",
+          "tool_icon": "https://i.imgur.com/qKYfn1V.png",
+          "tool_link": "https://bulma.io/"
+        },
+        {
+          "tool_name": "React",
+          "tool_icon": "https://i.imgur.com/t3ENqJA.png",
+          "tool_link": "https://reactjs.org/"
+        }
+      ]
+    },
+    {
+      "card_type": 0,
+      "main_tool_icon": "https://i.imgur.com/KKSMaBA.png",
+      "source_link": "https://github.com/sagabob/ThdpGisAppApi",
+      "app_link": "https://giswebapi.tdp-store.info/index.html",
+      "title": "Geospatial search service",
+      "start_time": "Sep 2020",
+      "end_time": "current",
+      "status": "https://i.imgur.com/1RCTa6Z.png",
+      "isUpdated": true,
+      "note": "A WebApi provides Restful services on searching geospatial features.",
+      "project_image": "https://i.imgur.com/8f2hx4q.png",
+      "project_description": "A dotnet-core WebApi provides Restful services on searching geospatial features such as interested points or properties.",
+      "tools": [
+        {
+          "tool_name": "CSharp",
+          "tool_icon": "https://i.imgur.com/s1xuCPI.png",
+          "tool_link": "https://docs.microsoft.com/en-us/dotnet/csharp/"
+        },
+        {
+          "tool_name": "MongoDb",
+          "tool_icon": "https://i.imgur.com/oAiIi6v.png",
+          "tool_link": "https://www.mongodb.com/"
+        }
+      ]
+    },
+    {
+      "card_type": 0,
+      "main_tool_icon": "https://assets.codepen.io/1104386/web_v1.png",
+      "source_link": "https://github.com/sagabob/ThdpGisWebApp",
+      "app_link": "https://giswebapp.tdp-store.info/",
+      "title": "Geospatial Web App",
+      "start_time": "May 2022",
+      "end_time": "current",
+      "status": "https://i.imgur.com/1RCTa6Z.png",
+      "isUpdated": true,
+      "note": "A simple website to search places in Christchurch, New Zealand.",
+      "project_image": "https://i.imgur.com/XqBJpo6.png",
+      "project_description": "A simple website to search places in Christchurch, New Zealand (working in progress). We can search points of interest such as parks, gardens, street addresses or houses.",
+      "tools": [
+        {
+          "tool_name": "Vercel",
+          "tool_icon": "https://i.imgur.com/QjKMuT8.png",
+          "tool_link": "https://vercel.com/"
+        },
+        {
+          "tool_name": "Tailwindcss",
+          "tool_icon": "https://i.imgur.com/e12j4ez.jpg",
+          "tool_link": "https://tailwindcss.com/"
+        },
+        {
+          "tool_name": "ReactMapGLJS",
+          "tool_icon": "https://i.imgur.com/TbZ6trh.png",
+          "tool_link": "https://visgl.github.io/react-map-gl/"
+        },
+        {
+          "tool_name": "React",
+          "tool_icon": "https://i.imgur.com/t3ENqJA.png",
+          "tool_link": "https://reactjs.org/"
+        }
+      ]
+    },
+    {
+      "card_type": 0,
+      "main_tool_icon": "https://i.imgur.com/KKSMaBA.png",
+      "source_link": "https://github.com/sagabob/PageTestAutomation",
+      "app_link": null,
+      "title": "UI Automation Testing",
+      "start_time": "March 2022",
+      "end_time": "March 2022",
+      "status": "https://i.imgur.com/1RCTa6Z.png",
+      "isUpdated": true,
+      "note": "A simple example of automation UI testing.",
+      "project_image": "https://i.imgur.com/jMO8GBo.png",
+      "project_description": "Specflow + Selenium WebDriver are using. The goal is to design a complete test library for the given site.",
+      "tools": [
+        {
+          "tool_name": "CSharp",
+          "tool_icon": "https://i.imgur.com/s1xuCPI.png",
+          "tool_link": "https://docs.microsoft.com/en-us/dotnet/csharp/"
+        },
+        {
+          "tool_name": "Specflow",
+          "tool_icon": "https://i.imgur.com/0e0pP90.png",
+          "tool_link": "https://specflow.org/"
+        }
+      ]
+    },
+    {
+      "card_type": 2,
+      "main_tool_icon": "https://assets.codepen.io/1104386/web_v1.png",
+      "source_link": "https://github.com/sagabob/GeoSpatialDataTypeConverter",
+      "app_link": null,
+      "title": "Geospatial converting service",
+      "start_time": "Sep 2020",
+      "end_time": "Nov 2020",
+      "status": "https://i.imgur.com/1RCTa6Z.png",
+      "isUpdated": true,
+      "note": "A simple geospatial converting service.",
+      "project_image": null,
+      "project_description": "Converts uploaded geojson file into gml, kml (Google Earth format) and another way around.",
+      "tools": [
+        {
+          "tool_name": "Firebase",
+          "tool_icon": "https://i.imgur.com/04KKBRl.png",
+          "tool_link": "https://gdal.org/"
+        },
+        {
+          "tool_name": "CSharp",
+          "tool_icon": "https://i.imgur.com/s1xuCPI.png",
+          "tool_link": "https://docs.microsoft.com/en-us/dotnet/csharp/"
+        }
+      ]
+    }
+  ]
 }
