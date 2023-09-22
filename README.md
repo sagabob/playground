@@ -12,7 +12,7 @@
   <p align="center">
     A simple website to show my resume and personal projects
     <br />  
-    <a href="https://playground-bob.vercel.app/" target="_blank"><strong>Explore the site »</strong></a>   
+    <a href="https://playground-bobpham.vercel.app/" target="_blank"><strong>Explore the site »</strong></a>   
   </p>
 </p>
  
