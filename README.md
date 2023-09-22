@@ -12,7 +12,7 @@
   <p align="center">
     A simple website to show my resume and personal projects
     <br />  
-    <a href="https://blog.tdp-store.info/" target="_blank"><strong>Explore the site »</strong></a>   
+    <a href="https://playground-six-mu.vercel.app" target="_blank"><strong>Explore the site »</strong></a>   
   </p>
 </p>
  
