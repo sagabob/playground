@@ -299,6 +299,73 @@
   "projects": [
     {
       "card_type": 0,
+      "main_tool_icon": "https://i.imgur.com/KKSMaBA.png",
+      "source_link": "https://github.com/sagabob/TdpGisApi",
+      "app_link": "https://tdp-gis-api.azurewebsites.net/swagger/index.html",
+      "title": "Geospatial Web App",
+      "start_time": "Sep 2023",
+      "end_time": "current",
+      "status": "https://i.imgur.com/1RCTa6Z.png",
+      "isUpdated": true,
+      "note": "A WebApi provides Restful services on searching geospatial features.",
+      "project_image": "https://i.imgur.com/dTEJ3cb.png",
+      "project_description": "A dotnet-core WebApi 7 provides Restful services for spatial and text searching services. Geo features can be stored in MongoDb and CosmosDb",
+      "tools": [
+        {
+          "tool_name": "DotNet Core 7",
+          "tool_icon": "https://i.imgur.com/s1xuCPI.png",
+          "tool_link": "https://docs.microsoft.com/en-us/dotnet/csharp/"
+        },
+        {
+          "tool_name": "Azure",
+          "tool_icon": "https://i.imgur.com/q6It0lX.png",
+          "tool_link": "https://azure.microsoft.com/"
+        },
+        {
+          "tool_name": "MongoDb",
+          "tool_icon": "https://i.imgur.com/oAiIi6v.png",
+          "tool_link": "https://www.mongodb.com/"
+        }
+      ]
+    },
+    {
+      "card_type": 0,
+      "main_tool_icon": "https://assets.codepen.io/1104386/web_v1.png",
+      "source_link": "https://github.com/sagabob/TdpGisWebApp",
+      "app_link": "https://tdp-gis-web-app.vercel.app/",
+      "title": "Geospatial Web App",
+      "start_time": "Oct 2023",
+      "end_time": "current",
+      "status": "https://i.imgur.com/1RCTa6Z.png",
+      "isUpdated": true,
+      "note": "A simple website to search community places & addresses in Christchurch, New Zealand.",
+      "project_image": "https://i.imgur.com/ZYrqLiK.png",
+      "project_description": "A geospatial portal, it provides text and spatial searching services for some common features such as addresses, points of interest. The WebApp consumes our API services.",
+      "tools": [
+        {
+          "tool_name": "Vercel",
+          "tool_icon": "https://i.imgur.com/QjKMuT8.png",
+          "tool_link": "https://vercel.com/"
+        },
+        {
+          "tool_name": "Tailwindcss",
+          "tool_icon": "https://i.imgur.com/e12j4ez.jpg",
+          "tool_link": "https://tailwindcss.com/"
+        },
+        {
+          "tool_name": "ReactMapGLJS",
+          "tool_icon": "https://i.imgur.com/TbZ6trh.png",
+          "tool_link": "https://visgl.github.io/react-map-gl/"
+        },
+        {
+          "tool_name": "React",
+          "tool_icon": "https://i.imgur.com/t3ENqJA.png",
+          "tool_link": "https://reactjs.org/"
+        }
+      ]
+    },
+    {
+      "card_type": 0,
       "main_tool_icon": "https://assets.codepen.io/1104386/web_v1.png",
       "source_link": "https://github.com/sagabob/ExportingService",
       "app_link": null,
