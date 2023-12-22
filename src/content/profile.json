@@ -285,6 +285,16 @@
     ],
     "certificates": [
       {
+        "title": "Microsoft Certified: Azure Cosmos DB Developer Specialty",
+        "provider": "Microsoft",
+        "provider_link": "https://www.linkedin.com/company/microsoft/",
+        "icon": "https://i.imgur.com/EKG6g1Y.jpg",
+        "issued": "Issued Dec 2023",
+        "expires": "Expires Dec 2024",
+        "credential_Id": "Credential ID 6081851D28494D85",
+        "badge": "https://learn.microsoft.com/en-gb/users/bobpham-2833/credentials/6081851D28494D85"
+      },
+      {
         "title": "Microsoft Certified: Azure Administrator Associate",
         "provider": "Microsoft",
         "provider_link": "https://www.linkedin.com/company/microsoft/",
